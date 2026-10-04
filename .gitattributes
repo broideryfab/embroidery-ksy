@@ -1,0 +1,3 @@
+* text=auto eol=lf
+formats/*/samples/* binary
+formats/*/samples/MANIFEST.yaml text eol=lf

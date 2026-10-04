@@ -1,0 +1,11 @@
+# Sample files for this format.
+# Only files we have the right to redistribute publicly.
+#
+# - file: square-10mm.ext        # file name in this directory
+#   version: ""                  # format version, if any
+#   created_with: ""             # software or machine that produced it
+#   author: ""                   # who made it
+#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
+#   sha256: ""                   # sha256 of the file
+#   description: ""              # what it demonstrates
+samples: []

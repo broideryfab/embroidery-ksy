@@ -1,0 +1,41 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+env:
+  KSC_VERSION: "0.10"
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Kaitai Struct compiler
+        run: |
+          curl -fsSLO "https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/${KSC_VERSION}/kaitai-struct-compiler_${KSC_VERSION}_all.deb"
+          sudo apt-get update
+          sudo apt-get install -y "./kaitai-struct-compiler_${KSC_VERSION}_all.deb"
+
+      - name: Compile parsers
+        run: tools/compile.sh python javascript java go
+
+      - name: Package
+        run: |
+          mkdir dist
+          for target in build/*/; do
+            target=$(basename "$target")
+            (cd build && zip -qr "../dist/embroidery-ksy-${GITHUB_REF_NAME}-${target}.zip" "$target")
+          done
+          (zip -qr "dist/embroidery-ksy-${GITHUB_REF_NAME}-specs.zip" formats -x '*/samples/*' '*/tests/*')
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
+          prerelease: ${{ startsWith(github.ref_name, 'v0.') }}

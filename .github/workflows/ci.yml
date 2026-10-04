@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+env:
+  KSC_VERSION: "0.10"  # keep kaitaistruct in tools/requirements.txt in sync
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Kaitai Struct compiler
+        run: |
+          curl -fsSLO "https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/${KSC_VERSION}/kaitai-struct-compiler_${KSC_VERSION}_all.deb"
+          sudo apt-get update
+          sudo apt-get install -y "./kaitai-struct-compiler_${KSC_VERSION}_all.deb"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+
+      - run: pip install -r tools/requirements.txt
+
+      - name: Compile all specs
+        run: tools/compile.sh python javascript
+
+      - name: Test specs against samples
+        run: python3 tools/run_tests.py --require-build

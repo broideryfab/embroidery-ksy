@@ -1,0 +1,3 @@
+# Keep kaitaistruct in sync with KSC_VERSION in .github/workflows/*.yml
+kaitaistruct==0.10
+PyYAML>=6,<7

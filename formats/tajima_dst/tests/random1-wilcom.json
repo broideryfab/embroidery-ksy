@@ -1,0 +1,24 @@
+{
+  "header": {
+    "label": "random1-",
+    "stitch_count": "    219",
+    "color_change_count": "  9",
+    "extent_x_pos": "  468",
+    "extent_x_neg": "  479",
+    "extent_y_pos": "  500",
+    "extent_y_neg": "  469",
+    "end_offset_x": "-   37",
+    "end_offset_y": "+  152",
+    "previous_end_x": "+    0",
+    "previous_end_y": "+    0",
+    "previous_file": "******",
+    "terminator": 26
+  },
+  "num_records": 219,
+  "records": {
+    "0": { "byte0": 0, "byte1": 0, "byte2": 131, "dx": 0, "dy": 0, "is_jump": true, "is_stitch": false, "is_end": false },
+    "10": { "byte2": 195, "dx": 0, "dy": 0, "is_color_change": true, "is_jump": false, "is_end": false },
+    "-1": { "byte0": 0, "byte1": 0, "byte2": 243, "dx": 0, "dy": 0, "is_end": true, "is_color_change": false, "is_jump": false }
+  },
+  "trailer": "1a"
+}

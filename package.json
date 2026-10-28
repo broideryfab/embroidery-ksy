@@ -1,0 +1,16 @@
+{
+  "name": "embroidery-ksy-tools",
+  "private": true,
+  "description": "Compiler and test tooling for embroidery-ksy. kaitai-struct-compiler and kaitai-struct must match tools/KSC_VERSION (CI checks this).",
+  "license": "MIT",
+  "scripts": {
+    "compile": "tools/compile.sh",
+    "check-specs": "node tools/check_specs.js",
+    "test": "node tools/run_tests.js --require-build"
+  },
+  "dependencies": {
+    "js-yaml": "4.1.0",
+    "kaitai-struct": "0.11.0",
+    "kaitai-struct-compiler": "0.11.0"
+  }
+}

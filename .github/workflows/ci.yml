@@ -1,15 +1,27 @@
+# Checks every push and pull request. After the checks pass:
+#   - a push to main republishes the rolling `edge` prerelease;
+#   - a pushed v* tag publishes a full release.
 name: CI
 
 on:
   push:
-    branches: [main]
+    branches: ["**"]
+    tags: ["v*"]
   pull_request:
+  workflow_dispatch:
 
 permissions:
   contents: read
 
-env:
-  KSC_VERSION: "0.10"  # keep kaitaistruct in tools/requirements.txt in sync
+# Superseded runs are cancelled, except on main and tags, where a run may
+# be publishing a release.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' && !startsWith(github.ref, 'refs/tags/') }}
+
+defaults:
+  run:
+    shell: bash  # -eo pipefail
 
 jobs:
   test:
@@ -17,22 +29,171 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Kaitai Struct compiler
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      # The Kaitai Struct version lives only in tools/KSC_VERSION; the npm
+      # compiler and runtime in package.json and the JVM compiler used for
+      # the warning check must match it.
+      - name: Read compiler version
+        run: |
+          KSC_VERSION=$(tr -d '[:space:]' < tools/KSC_VERSION)
+          echo "KSC_VERSION=$KSC_VERSION" >> "$GITHUB_ENV"
+          for pkg in kaitai-struct-compiler kaitai-struct; do
+            pinned=$(node -p "require('./package.json').dependencies['$pkg']")
+            if [ "$pinned" != "$KSC_VERSION" ] && [ "$pinned" != "$KSC_VERSION.0" ]; then
+              echo "::error file=package.json::$pkg is $pinned; must be $KSC_VERSION.0 (tools/KSC_VERSION)"
+              exit 1
+            fi
+          done
+
+      # No package-lock.json yet (it can only be made with Node, which the
+      # dev machine does not have), so this is `npm install`, not `npm ci`.
+      # The lockfile it writes is uploaded below; commit it, then switch to
+      # `npm ci` with `cache: npm` on setup-node.
+      - name: Install npm dependencies
+        run: |
+          npm install --no-audit --no-fund
+          node tools/ksc.js --version
+
+      # The only use of the JVM compiler: the npm build drops warnings, so
+      # this step installs the .deb at tools/KSC_VERSION (Java is preinstalled
+      # on the runner) and fails on any compiler error or warning, for every
+      # spec and every release target. All other steps use the npm compiler.
+      - name: Check specs for warnings (JVM compiler)
         run: |
           curl -fsSLO "https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/${KSC_VERSION}/kaitai-struct-compiler_${KSC_VERSION}_all.deb"
           sudo apt-get update
           sudo apt-get install -y "./kaitai-struct-compiler_${KSC_VERSION}_all.deb"
+          kaitai-struct-compiler --version | tee /dev/stderr | grep -qw "$KSC_VERSION"
+          node tools/check_specs.js
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          cache: pip
-          cache-dependency-path: tools/requirements.txt
-
-      - run: pip install -r tools/requirements.txt
-
-      - name: Compile all specs
+      # Later steps run even if an earlier check failed, so one run shows
+      # every problem. Python is compiled only as a release product.
+      - name: Compile all specs (npm compiler)
+        id: compile
+        if: ${{ !cancelled() }}
         run: tools/compile.sh python javascript
 
       - name: Test specs against samples
-        run: python3 tools/run_tests.py --require-build
+        if: ${{ !cancelled() && steps.compile.outcome == 'success' }}
+        run: node tools/run_tests.js --require-build --dump build/parsed
+
+      - name: Upload parsed trees
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: parsed-json
+          path: build/parsed/
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Upload npm lockfile
+        if: ${{ !cancelled() && hashFiles('package-lock.json') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: package-lock
+          path: package-lock.json
+          retention-days: 30
+
+  # Release assets: parser zips per target plus the specs zip. Runs only
+  # after `test` passed, for a push to main (edge) or a v* tag.
+  build:
+    needs: test
+    if: ${{ github.event_name == 'push' && (github.ref == 'refs/heads/main' || startsWith(github.ref, 'refs/tags/v')) }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install npm dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Compile parsers (npm compiler)
+        run: tools/compile.sh python javascript java go
+
+      - name: Package
+        run: |
+          if [ "$GITHUB_REF_TYPE" = tag ]; then label="$GITHUB_REF_NAME"; else label=edge; fi
+          mkdir dist
+          for target in build/*/; do
+            target=$(basename "$target")
+            (cd build && zip -qr "../dist/embroidery-ksy-${label}-${target}.zip" "$target")
+          done
+          zip -qr "dist/embroidery-ksy-${label}-specs.zip" formats -x '*/samples/*' '*/tests/*'
+          ls -l dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-assets
+          path: dist/
+          if-no-files-found: error
+          retention-days: 7
+
+  # Rolling prerelease: one release, tag `edge`, moved to each new main
+  # commit with all assets replaced. Never marked "Latest".
+  edge:
+    needs: build
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    concurrency:
+      group: release-edge
+      cancel-in-progress: false
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: dist
+
+      - name: Publish edge prerelease
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COMMIT_DATE: ${{ github.event.head_commit.timestamp }}
+        run: |
+          short=${GITHUB_SHA::7}
+          notes="Rolling pre-release, rebuilt on every push to \`main\` after CI passes.
+
+          Commit: ${GITHUB_SHA}
+          Date: ${COMMIT_DATE}
+
+          For stable files, use a tagged release."
+          # Delete the old release and its tag, then recreate both at this
+          # commit, so old assets never pile up.
+          gh release delete edge --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag || true
+          gh release create edge dist/*.zip \
+            --repo "$GITHUB_REPOSITORY" \
+            --target "$GITHUB_SHA" \
+            --prerelease \
+            --latest=false \
+            --title "Latest pre-release (main @ ${short})" \
+            --notes "$notes"
+
+  # Full release for a pushed v* tag, marked "Latest".
+  release:
+    needs: build
+    if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: release-assets
+          path: dist
+
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/*.zip \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --latest \
+            --title "$GITHUB_REF_NAME" \
+            --generate-notes

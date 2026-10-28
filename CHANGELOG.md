@@ -12,5 +12,32 @@ may change without notice.
   tests.
 - Stubs for 60 formats (tiers 1–3, proprietary source formats, thread color
   companions).
-- Tooling: `tools/compile.sh`, `tools/run_tests.py`; CI and release workflows.
+- Tooling: `tools/compile.sh`, `tools/run_tests.js`; CI workflow with releases.
 - Spec style guide and contributing guide.
+- `tajima_dst`: first full spec — 512-byte header fields, 3-byte stitch
+  records with decoded `dx`, `dy` and command flags, trailer. Four MIT
+  samples from EmbroidePy/samples (Wilcom, Premier+, My Editor) with NOTICE
+  and subset tests. Status 🟡 Partial until purpose-built samples land.
+- Test runner: list elements can be checked by index
+  (`"records": {"0": …, "-1": …}`); `samples/NOTICE` is allowed.
+- CI runs on every branch push and on demand, with kaitai-struct-compiler
+  0.11 (version kept in `tools/KSC_VERSION`). It fails on any compiler
+  error or warning for any release target (`tools/check_specs.js`) and
+  uploads the parsed tree of every sample as the `parsed-json` artifact.
+
+### Changed
+
+- Tests and tooling are JavaScript (Node, `package.json`):
+  `tools/run_tests.js` and `tools/check_specs.js` replace the Python
+  scripts and `tools/requirements.txt`. Samples are tested with the
+  generated JavaScript parsers; test keys stay `.ksy` ids. Enums in
+  `tests/*.json` are now integer values. Python remains a compile target
+  for the released parsers.
+- The compiler is the npm `kaitai-struct-compiler` (Scala.js build), run
+  through `tools/ksc.js` by `tools/compile.sh` in CI and releases. The JVM
+  compiler is used only for the warning check, since the npm build does not
+  report warnings.
+- Releases: every push to `main` republishes the rolling `edge`
+  pre-release (assets replaced, tag moved, never *Latest*); a pushed `v*`
+  tag publishes a full release marked *Latest*. Both run only after the CI
+  checks pass; `release.yml` is folded into `ci.yml`.

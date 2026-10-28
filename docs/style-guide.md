@@ -61,6 +61,11 @@ with a relative path: `imports: [../_common/<name>]`.
 - Only files you created or that are licensed for redistribution.
   Never purchased, commercial or customer designs.
 - Prefer one sample per known format version.
+- Third-party files keep their original names. When their license requires
+  attribution (MIT, CC-BY), add `samples/NOTICE` with the copyright notice
+  and license text, listing the files it covers.
+- Expected test values come from sources other than our spec: header text
+  in the file, the producer's own display, dumps from independent readers.
 
 ## Tests
 
@@ -77,9 +82,15 @@ match: list only the fields worth asserting.
 }
 ```
 
-- Objects: keys are read as attributes (seq fields and instances).
+`tools/run_tests.js` checks it against the generated JavaScript parser.
+
+- Objects: keys are `.ksy` ids (snake_case), read as the parser's fields
+  and instances. The parser's camelCase names also work.
 - Lists: length and every element must match.
-- Bytes: lowercase hex string. Enums: member name.
+- To check only some list elements, write the list as an object with index
+  keys: `"records": { "0": { "dx": 0 }, "-1": { "is_end": true } }`.
+- Bytes: lowercase hex string. Enums: integer value (the JavaScript parsers
+  keep enums as numbers).
 
 ## Format README
 

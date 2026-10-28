@@ -11,4 +11,4 @@ meta:
     - ../_common/<name>
 ```
 
-Not a format: `tools/run_tests.py` and `tools/compile.sh` skip this directory.
+Not a format: `tools/run_tests.js` and `tools/compile.sh` skip this directory.

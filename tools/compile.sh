@@ -4,12 +4,14 @@
 # Usage: tools/compile.sh [target ...]     (default: python javascript)
 # Targets: any kaitai-struct-compiler target (python, javascript, java, go, ...)
 # Output:  build/<target>/
-# Env:     KSC — compiler command (default: kaitai-struct-compiler)
+# Env:     KSC — compiler command (default: node tools/ksc.js, the npm
+#          compiler; run `npm install` first). The JVM compiler works too:
+#          KSC=kaitai-struct-compiler tools/compile.sh
 
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-KSC="${KSC:-kaitai-struct-compiler}"
+read -r -a ksc <<< "${KSC:-node tools/ksc.js}"
 if [ $# -eq 0 ]; then
   set -- python javascript
 fi
@@ -21,5 +23,5 @@ for target in "$@"; do
   echo "==> $target (${#specs[@]} specs)"
   rm -rf "build/$target"
   mkdir -p "build/$target"
-  "$KSC" --target "$target" --outdir "build/$target" --import-path formats "${specs[@]}"
+  "${ksc[@]}" --target "$target" --outdir "build/$target" --import-path formats "${specs[@]}"
 done

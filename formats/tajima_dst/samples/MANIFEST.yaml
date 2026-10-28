@@ -8,4 +8,46 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.DST
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e025e5f9654cac8c4c8a75479100ed2366c574e1c4ad9a1d00f28c9417d6b8ab
+    description: >-
+      Random design: 30 stitches in 10 colors. Label truncated to 8 characters,
+      ST counts every record including the end record, AX/AY filled,
+      one 0x1A byte after the end record.
+  - file: random1-premier.dst
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: 5bcc7dcfad897592f65d0bc7581ad6cee219a026d2b23f52e722748b7d2f3a30
+    description: >-
+      Same design as random1-wilcom. Label "H", ST (245) differs from the
+      record count (248), CO counts colors (10) not changes (9), AX/AY
+      left at zero, one 0x1A byte after the end record.
+  - file: random1-me.dst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 86a187e3422370e1343fed72e5bb98e309a3ce9a5fc196f072bfd26d05d20c2d
+    description: >-
+      Same design as random1-wilcom. Numeric header values right-aligned
+      with the sign next to the digits ("    +0"), 0x00 after the header's
+      0x1A, trailer 1a 00 00 after the end record.
+  - file: spiralbox-wilcom.DST
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7e82090159faf2dd0acaeec104da66a902886d4b614cf1ce2757587d3461dbaf
+    description: >-
+      A 10 mm square followed by rotated copies, one color each. First
+      records are single 100-unit moves in each direction, so the axis
+      directions are visible; 15 color changes, each followed by a jump.

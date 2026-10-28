@@ -1,0 +1,29 @@
+{
+  "header": {
+    "label": "spiralbo",
+    "stitch_count": "    111",
+    "color_change_count": " 15",
+    "extent_x_pos": "  106",
+    "extent_x_neg": "  257",
+    "extent_y_pos": "  131",
+    "extent_y_neg": "  231",
+    "end_offset_x": "-   25",
+    "end_offset_y": "+   25",
+    "previous_end_x": "+    0",
+    "previous_end_y": "+    0",
+    "previous_file": "******",
+    "terminator": 26
+  },
+  "num_records": 111,
+  "records": {
+    "0": { "dx": 0, "dy": 0, "is_stitch": true, "is_jump": false },
+    "1": { "dx": 0, "dy": -100, "is_stitch": true },
+    "2": { "dx": 100, "dy": 0, "is_stitch": true },
+    "3": { "dx": 0, "dy": 100, "is_stitch": true },
+    "4": { "dx": -100, "dy": 0, "is_stitch": true },
+    "5": { "byte0": 0, "byte1": 0, "byte2": 195, "dx": 0, "dy": 0, "is_color_change": true, "is_stitch": false },
+    "6": { "is_jump": true, "is_color_change": false },
+    "-1": { "byte0": 0, "byte1": 0, "byte2": 243, "dx": 0, "dy": 0, "is_end": true, "is_color_change": false, "is_jump": false }
+  },
+  "trailer": "1a"
+}

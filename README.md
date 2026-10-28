@@ -30,15 +30,54 @@ Shared tooling lives in `tools/`, conventions in
 ## Usage
 
 ```bash
-# Generate parsers (requires kaitai-struct-compiler + Java)
+# Compiling and testing run on Node.js (no Java needed)
+npm install
+
+# Generate parsers with the npm kaitai-struct-compiler
 tools/compile.sh python javascript
 
-# Run sample tests (requires Python 3, kaitaistruct, pyyaml)
-python3 tools/run_tests.py
+# Run sample tests
+node tools/run_tests.js
 ```
 
-Generated parsers are also attached to each
-[release](https://github.com/broideryfab/embroidery-ksy/releases).
+The generated Python, Java and Go parsers are products for users; the
+repository's compiler and tests run on Node. The one exception is the
+compiler-warning check (`tools/check_specs.js`), which needs the JVM
+compiler because the npm build does not report warnings.
+
+### Downloads
+
+Generated parsers (Python, JavaScript, Java, Go) and the specs are published
+as zip files:
+
+- **Latest pre-release** —
+  [`/releases/tag/edge`](https://github.com/broideryfab/embroidery-ksy/releases/tag/edge).
+  Rebuilt from `main` on every push, after CI passes. Always current, not
+  stable; its title shows the commit.
+- **Releases** —
+  [`/releases`](https://github.com/broideryfab/embroidery-ksy/releases).
+  Tagged versions (`vX.Y.Z`); the newest one is marked *Latest*.
+
+### What CI checks
+
+[CI](.github/workflows/ci.yml) runs on every push to any branch, on pull
+requests, and on demand (Actions → CI → Run workflow). It uses the official
+Kaitai Struct tools at the version in [`tools/KSC_VERSION`](tools/KSC_VERSION):
+the npm `kaitai-struct-compiler` and `kaitai-struct` runtime.
+
+1. **Warning check** — `tools/check_specs.js` compiles every `.ksy` for the
+   release targets (Python, JavaScript, Java, Go) with the JVM compiler and
+   fails on any compiler error *or warning*. This is the JVM compiler's only
+   job in CI.
+2. **Compile** — `tools/compile.sh python javascript` with the npm compiler
+   (through `tools/ksc.js`).
+3. **Tests** — `tools/run_tests.js --require-build`: layout, manifests,
+   sha256; every generated JavaScript parser loads; every sample in a
+   `samples/MANIFEST.yaml` parses, and the result matches `tests/*.json`
+   (subset match).
+4. **Parsed trees** — the full parsed tree of every sample as JSON, uploaded
+   as the `parsed-json` artifact. See
+   [CONTRIBUTING.md](CONTRIBUTING.md#reading-ci-results).
 
 You can also open any `.ksy` file in the
 [Kaitai Web IDE](https://ide.kaitai.io) together with a sample file.
@@ -51,7 +90,7 @@ color companion files.
 
 | Spec | Extensions | Vendor | Priority | Status |
 |---|---|---|---|---|
-| [tajima_dst](formats/tajima_dst/) | .dst | Tajima | 1 | 🔲 Stub |
+| [tajima_dst](formats/tajima_dst/) | .dst | Tajima | 1 | 🟡 Partial |
 | [brother_pes](formats/brother_pes/) | .pes | Brother / Baby Lock | 1 | 🔲 Stub |
 | [brother_pec](formats/brother_pec/) | .pec | Brother | 1 | 🔲 Stub |
 | [janome_jef](formats/janome_jef/) | .jef | Janome / Elna | 1 | 🔲 Stub |

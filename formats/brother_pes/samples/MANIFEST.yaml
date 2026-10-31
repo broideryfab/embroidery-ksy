@@ -8,4 +8,70 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+# All are the same 10-color "random1" design.
+samples:
+  - file: random1-brother-v1.pes
+    version: "0001"
+    created_with: Brother PE-Design (PES v1)
+    author: EmbroidePy
+    license: MIT
+    sha256: ecf7b6c1aff1035a15f8e1da23c9b7250253b1d24d211acd569e3b2a93fff4f4
+    description: >-
+      Version 0001: hoop size code only, then the CEmbOne/CSewSeg objects
+      and the PEC block (label truncated to "random1-", 11 thumbnails).
+  - file: random1-brother-v2.pes
+    version: "0020"
+    created_with: Brother PE-Design (PES v2)
+    author: EmbroidePy
+    license: MIT
+    sha256: 6600bdf7900f9dbafbc624df6ad5e5626782296a35854229f56222fbd498b38b
+    description: >-
+      Version 0020: hoop size in mm (130 x 180) and the settings block.
+  - file: random1-brother-v3.pes
+    version: "0030"
+    created_with: Brother PE-Design (PES v3)
+    author: EmbroidePy
+    license: MIT
+    sha256: bd2bc73f4d087bab50c8cf1bf236f166309df2cdc8f46861d608acb8de4902df
+    description: >-
+      Version 0030: version 0020 with the two leading fields of 0001.
+  - file: random1-brother-v4.pes
+    version: "0040"
+    created_with: Brother PE-Design (PES v4)
+    author: EmbroidePy
+    license: MIT
+    sha256: 46965f42519095afdc9f647074b1d62c07c1a93e605f5eed8e31bf2f502aae91
+    description: >-
+      Version 0040: subversion "01", empty design name and four empty
+      strings; 128 extra bytes after the PEC thumbnails.
+  - file: random1-brother-v5.pes
+    version: "0050"
+    created_with: Brother PE-Design (PES v5)
+    author: EmbroidePy
+    license: MIT
+    sha256: c47c60982068b6d0c80c866270c3af2e2e5aef7e504e44de844002575b7f25a5
+    description: >-
+      Version 0050: transform and a 9-entry thread table (catalog number,
+      RGB, PEC palette index as name, brand "EMBROIDERY") for 10 color
+      blocks; extra data after the PEC thumbnails.
+  - file: random1-brother-v6.pes
+    version: "0060"
+    created_with: Brother PE-Design (PES v6)
+    author: EmbroidePy
+    license: MIT
+    sha256: 2bf708b8d742e0b1f3d730fb2fc9c2a40c84d4568aba51c84256bb5ddbf5e8e5
+    description: >-
+      Version 0060: version 0050 plus two extra header fields; the object
+      list count is 1 instead of the color count.
+  - file: random1-premier-v10.pes
+    version: "0100"
+    created_with: Premier+ (VSM, PES v10)
+    author: EmbroidePy
+    license: MIT
+    sha256: 0f9bdab4b088a4e72bfe8d5a6c2bfa935cae01274e5e174c53e74eb27bf277d8
+    description: >-
+      Version 0100: header not parsed (kept in body). The PEC block has one
+      color and no color change records, a hoop-sized box (3000 x 2000)
+      and data after the thumbnails.

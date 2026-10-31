@@ -8,4 +8,36 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-ew.pec
+    version: "PEC0001"
+    created_with: unidentified ("ew" suffix in EmbroidePy/samples)
+    author: EmbroidePy
+    license: MIT
+    sha256: 92edd94e2d186bc1e8014d8f26a449c0077c980fbf40f643801686f11020f1ff
+    description: >-
+      Random design: 10 colors, 9 color changes. Starts with jump records
+      (2-byte form with the jump flag on both axes) and has trim records
+      (0xa0 0x00 0xa0 0x00) before each color change. 11 thumbnails.
+  - file: random1-premier.pec
+    version: "PEC0001"
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: 28696cb05fe4f4117584010d0d33dc0dd3675b28f88ff7aa62323d98623dcaa5
+    description: >-
+      Same design as random1-ew. Label is a single character ("A"), mixes
+      1-byte and 2-byte values, a jump after each color change, and only
+      one thumbnail (the whole design) instead of one per color plus one.
+  - file: spiralbox-wilcom.PEC
+    version: "PEC0001"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 50a9a1e0d0e84112f1d202c60f7330a0eff60b5dbcabb1295fc9941602243dbe
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors. The first four
+      records are single 100-unit moves (down, right, up, left), which shows
+      the axis directions; 17 thumbnails.

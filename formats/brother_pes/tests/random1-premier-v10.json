@@ -1,0 +1,29 @@
+{
+  "version": "0100",
+  "pec_offset": 1240,
+  "is_known_version": false,
+  "pec_block": {
+    "header": {
+      "unknown_0x1f": 255,
+      "num_colors_minus_one": 0,
+      "num_colors": 1,
+      "palette_indices": [46]
+    },
+    "stitch_header": {
+      "graphics_offset": 167,
+      "width": 3000,
+      "height": 2000,
+      "start_x": 1500,
+      "start_y": 1000
+    },
+    "num_records": 44,
+    "records": {
+      "0": { "x_byte0": 159, "x_byte1": 98, "y_byte0": 144, "y_byte1": 55, "dx": -158, "dy": 55, "is_jump": true },
+      "1": { "x_byte0": 0, "y_byte0": 0, "dx": 0, "dy": 0, "is_stitch": true },
+      "-1": { "is_end": true }
+    },
+    "thumbnails": {
+      "num_images": 2
+    }
+  }
+}

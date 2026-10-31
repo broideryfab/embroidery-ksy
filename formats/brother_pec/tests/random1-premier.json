@@ -1,0 +1,30 @@
+{
+  "pec_block": {
+    "header": {
+      "label": "A",
+      "num_colors_minus_one": 9,
+      "num_colors": 10,
+      "palette_indices": [46, 46, 30, 61, 45, 28, 61, 55, 52, 12]
+    },
+    "stitch_header": {
+      "graphics_offset": 206,
+      "width": 948,
+      "height": 968,
+      "start_x": 479,
+      "start_y": 499
+    },
+    "num_records": 59,
+    "records": {
+      "0": { "x_byte0": 124, "y_byte0": 113, "dx": -4, "dy": -15, "is_x_long": false, "is_y_long": false, "is_stitch": true },
+      "1": { "dx": -1, "dy": 0, "is_stitch": true },
+      "2": { "dx": -153, "dy": 70, "is_x_long": true, "is_y_long": true, "is_stitch": true },
+      "5": { "is_color_change": true, "color_change_toggle": 2 },
+      "6": { "x_byte0": 158, "x_byte1": 49, "y_byte0": 159, "y_byte1": 13, "dx": -463, "dy": -243, "is_jump": true, "is_stitch": false },
+      "-1": { "is_end": true }
+    },
+    "thumbnails": {
+      "num_images": 1,
+      "trailer": ""
+    }
+  }
+}

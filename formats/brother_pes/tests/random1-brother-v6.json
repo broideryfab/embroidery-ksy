@@ -1,0 +1,32 @@
+{
+  "version": "0060",
+  "pec_offset": 893,
+  "header": { "design_info": { "unknown_0x0c": 1, "subversion": "01", "design_name": { "len_value": 0, "value": "" }, "unknown_strings": [{ "value": "" }, { "value": "" }, { "value": "" }, { "value": "" }] }, "unknown_flag": 1, "unknown_after_flag": 0, "hoop_width": 130, "hoop_height": 180, "unknown_sizes": [200, 200, 100, 100, 100], "settings": { "unknown_0x00": 7, "unknown_0x02": 19, "unknown_0x04": 1, "unknown_0x06": 1, "unknown_0x08": 1, "unknown_0x0a": 5, "unknown_0x0c": 1 }, "num_threads": 9, "transform": [1, 0, 0, 1, 0, 0], "threads": { "0": { "catalog_number": { "value": "817" }, "red": 135, "green": 135, "blue": 135, "unknown_0x03": 0, "thread_type": 10, "name": { "value": "39" }, "brand": { "value": "EMBROIDERY" }, "unknown_string": { "value": "" } }, "-1": { "catalog_number": { "value": "206" }, "red": 255, "green": 217, "blue": 17, "thread_type": 10, "name": { "value": "58" } } } },
+  "object_list": { "unknown_count": 1, "schema": 0, "len_class_name": 7, "class_name": "CEmbOne" },
+  "pec_block": {
+    "header": {
+      "label": "random1-",
+      "unknown_0x1f": 255,
+      "num_colors_minus_one": 9,
+      "num_colors": 10,
+      "palette_indices": [39, 46, 55, 10, 45, 48, 10, 19, 35, 58]
+    },
+    "stitch_header": {
+      "graphics_offset": 162,
+      "width": 947,
+      "height": 969,
+      "start_x": 320,
+      "start_y": 556
+    },
+    "num_records": 39,
+    "records": {
+      "0": { "x_byte0": 128, "x_byte1": 234, "y_byte0": 128, "y_byte1": 204, "dx": 234, "dy": 204, "is_stitch": true },
+      "1": { "dx": 293, "dy": -441, "is_stitch": true },
+      "2": { "is_color_change": true, "color_change_code": 176, "color_change_toggle": 2 },
+      "-1": { "is_end": true }
+    },
+    "thumbnails": {
+      "num_images": 11
+    }
+  }
+}

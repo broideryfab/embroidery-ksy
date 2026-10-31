@@ -1,0 +1,31 @@
+{
+  "pec_block": {
+    "header": {
+      "label": "spiralbox-wilcom",
+      "num_colors_minus_one": 15,
+      "num_colors": 16,
+      "palette_indices": [5, 21, 56, 39, 58, 42, 35, 29, 17, 27, 22, 35, 8, 18, 52, 14]
+    },
+    "stitch_header": {
+      "graphics_offset": 352,
+      "width": 363,
+      "height": 362,
+      "start_x": 257,
+      "start_y": 131
+    },
+    "num_records": 95,
+    "records": {
+      "0": { "x_byte0": 128, "x_byte1": 0, "y_byte0": 128, "y_byte1": 100, "dx": 0, "dy": 100, "is_stitch": true },
+      "1": { "dx": 100, "dy": 0, "is_stitch": true },
+      "2": { "y_byte0": 143, "y_byte1": 156, "dx": 0, "dy": -100, "is_stitch": true },
+      "3": { "dx": -100, "dy": 0, "is_stitch": true },
+      "4": { "is_color_change": true, "color_change_toggle": 2 },
+      "5": { "x_byte0": 14, "y_byte0": 33, "dx": 14, "dy": 33, "is_stitch": true },
+      "-1": { "is_end": true }
+    },
+    "thumbnails": {
+      "num_images": 17,
+      "trailer": ""
+    }
+  }
+}

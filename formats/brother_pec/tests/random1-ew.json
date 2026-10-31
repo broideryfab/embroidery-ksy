@@ -1,0 +1,42 @@
+{
+  "pec_block": {
+    "header": {
+      "label": "random1-ew",
+      "unknown_0x1f": 32,
+      "unknown_0x20": 255,
+      "thumbnail_byte_width": 6,
+      "thumbnail_height": 38,
+      "num_colors_minus_one": 9,
+      "num_colors": 10,
+      "palette_indices": [39, 46, 55, 61, 45, 48, 10, 19, 35, 58]
+    },
+    "stitch_header": {
+      "graphics_offset": 228,
+      "width": 947,
+      "height": 969,
+      "unknown_0x0c": 480,
+      "unknown_0x0e": 432,
+      "start_x_raw": 37337,
+      "start_x": 473,
+      "start_y": 484
+    },
+    "num_records": 60,
+    "records": {
+      "0": { "x_byte0": 144, "x_byte1": 0, "y_byte0": 144, "y_byte1": 0, "dx": 0, "dy": 0, "is_jump": true, "is_trim": false, "is_stitch": false },
+      "1": { "x_byte0": 159, "x_byte1": 103, "dx": -153, "dy": 72, "is_jump": true },
+      "2": { "x_byte0": 0, "y_byte0": 0, "dx": 0, "dy": 0, "is_x_long": false, "is_y_long": false, "is_stitch": true },
+      "3": { "dx": 234, "dy": 204, "is_x_long": true, "is_stitch": true },
+      "4": { "dx": 293, "dy": -441, "is_stitch": true },
+      "5": { "x_byte0": 160, "dx": 0, "dy": 0, "is_trim": true, "is_jump": false, "is_stitch": false },
+      "6": { "x_byte0": 254, "color_change_code": 176, "color_change_toggle": 2, "is_color_change": true, "is_move": false, "is_end": false, "dx": 0, "dy": 0 },
+      "12": { "is_color_change": true, "color_change_toggle": 1 },
+      "-2": { "dx": 153, "dy": 221, "is_stitch": true },
+      "-1": { "x_byte0": 255, "is_end": true, "is_move": false, "is_color_change": false }
+    },
+    "thumbnails": {
+      "image_size": 228,
+      "num_images": 11,
+      "trailer": ""
+    }
+  }
+}

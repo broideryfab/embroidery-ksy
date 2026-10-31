@@ -1,0 +1,60 @@
+{
+  "magic": "2576736d2500",
+  "producer": { "value": "Produced by VSM Group AB" },
+  "file": {
+    "len_body": 1287,
+    "body": {
+      "comment": { "value": "Settings:" },
+      "extent_right": 10500,
+      "extent_top": 13000,
+      "extent_left": -25500,
+      "extent_bottom": -23000,
+      "unknown_stitch_count": 112,
+      "num_colors": 16
+    }
+  },
+  "num_color_blocks": 16,
+  "design": {
+    "center_x": -7500,
+    "center_y": -5000,
+    "bounds_left": -18000,
+    "bounds_right": 18000,
+    "bounds_bottom": -18000,
+    "bounds_top": 18000,
+    "width": 36000,
+    "height": 36000,
+    "num_color_blocks": 16,
+    "color_blocks": [
+      { "body": { "start_x": 7600, "start_y": 5000, "end_offset_x": -100, "end_offset_y": 0,
+        "thread": { "colors": [{ "rgb": 16711680 }], "description": { "value": "#ff0000" } },
+        "stitches": { "len_body": 13, "body": { "unknown_0x00": "0af600", "records": [
+          { "dx": -1, "dy": 0 },
+          { "dx": 0, "dy": 100 },
+          { "dx": 100, "dy": 0 },
+          { "dx": 0, "dy": -100 },
+          { "dx": -100, "dy": 0 }
+        ] } } } },
+      { "body": { "start_x": 8800, "start_y": 1800, "thread": { "colors": [{ "rgb": 255 }], "description": { "value": "#0000ff" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 32768 }], "description": { "value": "#008000" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 8421504 }], "description": { "value": "#808080" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16766720 }], "description": { "value": "#ffd700" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16777200 }], "description": { "value": "#fffff0" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 15787660 }], "description": { "value": "#f0e68c" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16643558 }], "description": { "value": "#fdf5e6" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 8421376 }], "description": { "value": "#808000" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16761035 }], "description": { "value": "#ffc0cb" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 8388736 }], "description": { "value": "#800080" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 13808780 }], "description": { "value": "#d2b48c" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 15631086 }], "description": { "value": "#ee82ee" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16777215 }], "description": { "value": "#ffffff" } } } },
+      { "body": { "thread": { "colors": [{ "rgb": 16416882 }], "description": { "value": "#fa8072" } } } },
+      { "len_body": 64, "body": { "start_x": 4900, "start_y": 7500, "end_offset_x": 0, "end_offset_y": 0,
+        "thread": { "colors": [{ "rgb": 65280 }], "description": { "value": "#00ff00" } },
+        "stitches": { "len_body": 17, "body": { "records": {
+          "1": { "is_stitch": true, "dx": 38, "dy": 92 },
+          "5": { "x": -128, "y": 3, "is_trim": true },
+          "6": { "is_stitch": true, "dx": -1, "dy": 0 }
+        } } } } }
+    ]
+  }
+}

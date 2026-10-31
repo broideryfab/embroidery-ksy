@@ -1,0 +1,91 @@
+{
+  "magic": "2576736d2500",
+  "producer": { "value": "Produced by WingsXP software" },
+  "file": {
+    "len_body": 1039,
+    "body": {
+      "comment": { "len_value": 0, "value": "" },
+      "extent_right": 47400,
+      "extent_top": 48400,
+      "extent_left": -47300,
+      "extent_bottom": -48500,
+      "unknown_stitch_count": 70,
+      "num_colors": 10,
+      "unknown_after_num_colors": "0c0001",
+      "design": { "len_body": 1005 }
+    }
+  },
+  "num_color_blocks": 10,
+  "design": {
+    "center_x": 0,
+    "center_y": 0,
+    "bounds_left": -47300,
+    "bounds_right": 47400,
+    "bounds_bottom": -48500,
+    "bounds_top": 48400,
+    "width": 94700,
+    "height": 96900,
+    "settings": { "value": "" },
+    "unknown_after_settings": "646400001000000000000000000000001000787850500100",
+    "producer": { "value": "Produced by WingsXP software" },
+    "num_color_blocks": 10,
+    "color_blocks": {
+      "0": {
+        "len_body": 77,
+        "body": {
+          "start_x": 0,
+          "start_y": 0,
+          "thread": {
+            "num_colors": 1,
+            "colors": [{ "red": 166, "green": 166, "blue": 149, "rgb": 10921621 }],
+            "unknown_type": 5,
+            "weight": 40,
+            "catalog_number": { "value": "" },
+            "description": { "value": "Gray" },
+            "brand": { "value": "" }
+          },
+          "end_offset_x": 37400,
+          "end_offset_y": 16500,
+          "stitches": {
+            "len_body": 33,
+            "body": {
+              "unknown_0x00": "0af600",
+              "records": [
+                { "x": -128, "y": 1, "long_dx": -153, "long_dy": 72, "is_long_move": true, "command": 1, "dx": -153, "dy": 72 },
+                { "x": -128, "y": 2, "command": 2, "is_long_move": false, "dx": 0, "dy": 0 },
+                { "x": 0, "y": 0, "is_stitch": true, "dx": 0, "dy": 0 },
+                { "is_long_move": true, "dx": 117, "dy": 102 },
+                { "command": 2 },
+                { "is_stitch": true, "dx": 117, "dy": 102 },
+                { "is_long_move": true, "dx": 222, "dy": -333 },
+                { "command": 2 },
+                { "is_stitch": true, "dx": 71, "dy": -108 }
+              ]
+            }
+          },
+          "unknown_last": 0
+        }
+      },
+      "1": {
+        "body": {
+          "start_x": 37400,
+          "start_y": 16500,
+          "thread": { "colors": [{ "rgb": 12618200 }], "description": { "value": "Wisteria Violet" } },
+          "end_offset_x": -100,
+          "end_offset_y": 11300
+        }
+      },
+      "-1": {
+        "len_body": 85,
+        "body": {
+          "start_x": -40600,
+          "start_y": -12200,
+          "thread": { "colors": [{ "rgb": 16700688 }], "description": { "value": "Harvest Gold" } },
+          "end_offset_x": 37500,
+          "end_offset_y": 25800,
+          "stitches": { "body": { "records": { "0": { "dx": 767, "dy": 60 }, "-1": { "dx": 76, "dy": 110 } } } }
+        }
+      }
+    }
+  }
+}

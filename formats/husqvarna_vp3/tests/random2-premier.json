@@ -1,0 +1,62 @@
+{
+  "magic": "2576736d2500",
+  "producer": { "value": "Produced by VSM Group AB" },
+  "file": {
+    "len_body": 488,
+    "body": {
+      "comment": { "len_value": 18, "value": "Settings:" },
+      "extent_right": 45100,
+      "extent_top": 44600,
+      "extent_left": -49000,
+      "extent_bottom": -38300,
+      "unknown_stitch_count": 41,
+      "num_colors": 1,
+      "design": { "len_body": 436 }
+    }
+  },
+  "num_color_blocks": 1,
+  "design": {
+    "center_x": -1950,
+    "center_y": 3150,
+    "bounds_left": -47050,
+    "bounds_right": 47050,
+    "bounds_bottom": -41450,
+    "bounds_top": 41450,
+    "width": 94100,
+    "height": 82900,
+    "settings": { "value": "Settings:" },
+    "producer": { "value": "Produced by VSM Group AB" },
+    "num_color_blocks": 1,
+    "color_blocks": [
+      {
+        "len_body": 298,
+        "body": {
+          "start_x": -39050,
+          "start_y": 12150,
+          "thread": {
+            "colors": [{ "red": 236, "green": 170, "blue": 118, "rgb": 15510134 }],
+            "catalog_number": { "value": "" },
+            "description": { "value": "#ecaa76" },
+            "brand": { "value": "" }
+          },
+          "end_offset_x": 84400,
+          "end_offset_y": -35200,
+          "stitches": {
+            "len_body": 251,
+            "body": {
+              "records": {
+                "0": { "x": 0, "y": 0, "is_stitch": true, "dx": 0, "dy": 0 },
+                "1": { "is_long_move": true, "long_dx": 364, "long_dy": 138, "dx": 364, "dy": 138 },
+                "2": { "command": 2 },
+                "5": { "command": 3, "is_trim": true },
+                "57": { "is_stitch": true, "dx": 25, "dy": -77 },
+                "-1": { "command": 3, "is_trim": true }
+              }
+            }
+          },
+          "unknown_last": 0
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "magic": "2576736d2500",
+  "producer": { "value": "Produced by     Software Ltd" },
+  "file": {
+    "len_body": 977,
+    "body": {
+      "comment": { "value": "" },
+      "extent_right": 46800,
+      "extent_top": 50000,
+      "extent_left": -47900,
+      "extent_bottom": -46900,
+      "unknown_stitch_count": 156,
+      "num_colors": 10,
+      "design": { "len_body": 943 }
+    }
+  },
+  "num_color_blocks": 10,
+  "design": {
+    "center_x": -500,
+    "center_y": 1600,
+    "unknown_0x08": "000000",
+    "bounds_left": -47300,
+    "bounds_right": 47300,
+    "bounds_bottom": -48400,
+    "bounds_top": 48400,
+    "width": 94700,
+    "height": 96900,
+    "settings": { "value": "" },
+    "producer": { "value": "Produced by     Software Ltd" },
+    "num_color_blocks": 10,
+    "color_blocks": {
+      "0": {
+        "len_body": 75,
+        "body": {
+          "start_x": 500,
+          "start_y": -1500,
+          "thread": {
+            "num_colors": 1,
+            "colors": [{ "red": 135, "green": 135, "blue": 135, "unknown_0x03": "000000" }],
+            "weight": 40,
+            "catalog_number": { "len_value": 3, "value": "039" },
+            "description": { "len_value": 0, "value": "" },
+            "brand": { "len_value": 3, "value": "PES" }
+          },
+          "end_offset_x": 36800,
+          "end_offset_y": 18100,
+          "stitches": {
+            "len_body": 29,
+            "body": {
+              "records": [
+                { "is_long_move": true, "dx": -159, "dy": 56 },
+                { "command": 2 },
+                { "is_stitch": true, "dx": 0, "dy": 0 },
+                { "is_long_move": true, "dx": 234, "dy": 204 },
+                { "command": 2 },
+                { "is_long_move": true, "dx": 293, "dy": -441 },
+                { "command": 2 }
+              ]
+            }
+          },
+          "unknown_last": 0
+        }
+      },
+      "-1": {
+        "len_body": 77,
+        "body": {
+          "start_x": -40700,
+          "start_y": -12100,
+          "thread": {
+            "colors": [{ "rgb": 16767249 }],
+            "catalog_number": { "value": "058" },
+            "brand": { "value": "PES" }
+          },
+          "end_offset_x": 37500,
+          "end_offset_y": 25800,
+          "stitches": {
+            "len_body": 31,
+            "body": {
+              "records": {
+                "0": { "dx": 767, "dy": 60 },
+                "-1": { "x": -128, "y": 3, "command": 3, "is_trim": true, "is_stitch": false, "dx": 0, "dy": 0 }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

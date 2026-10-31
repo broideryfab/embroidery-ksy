@@ -1,0 +1,12 @@
+{
+  "num_records": 97,
+  "records": {
+    "0": { "byte0": 128, "byte1": 2, "command": 2, "dx": 86, "dy": -77, "is_jump": true },
+    "2": { "command": 2, "dx": 86, "dy": -77, "is_jump": true },
+    "3": { "byte0": 255, "byte1": 0, "dx": -1, "dy": 0, "is_stitch": true },
+    "4": { "dx": 100, "dy": 0, "is_stitch": true },
+    "7": { "command": 1, "param_x": 0, "param_y": 0, "is_color_change": true },
+    "8": { "dx": 14, "dy": -33, "is_stitch": true },
+    "-1": { "dx": -92, "dy": -38, "is_stitch": true }
+  }
+}

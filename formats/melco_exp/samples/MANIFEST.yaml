@@ -8,4 +8,49 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: spiralbox-wilcom-bernina.EXP
+    version: ""
+    created_with: Wilcom (Bernina EXP option)
+    author: EmbroidePy
+    license: MIT
+    sha256: c49631d8c503af274f7502cae80edcf36b93f35d6ef4fa5a4800524301393f5b
+    description: >-
+      A 10 mm square followed by rotated copies, one color each. Byte-identical
+      to spiralbox-wilcom.EXP. First records are single 100-unit moves in
+      each direction, so the axis directions are visible; 15 color changes
+      (80 01 00 00), each followed by one jump (80 04) and two zero stitches.
+  - file: scene-wilcom.EXP
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: f8e592d4a2766e49673b2e98ec8f4f6500bd6c3827eb0986cb12d7732f0a6736
+    description: >-
+      Small scene in three colors. Starts with a jump; contains the trim
+      command (80 80 07 00, twice), runs of jumps (80 04) and two color
+      changes. Byte-identical to scene-wilcom-bernina.EXP.
+  - file: random1-me.exp
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 3c7ec5fb009ee87a541aef60cfd55fb02f7a69ee2b35ea1ffc347c5b54b86c70
+    description: >-
+      Random design: 30 stitches in 10 colors. Long moves are split into
+      runs of 80 02 jumps; the last jump before each color change uses
+      80 04 instead.
+  - file: spiralbox-ew-+.exp
+    version: ""
+    created_with: unidentified ("ew", export with .inf color file)
+    author: EmbroidePy
+    license: MIT
+    sha256: 873c7dd1bbc371d4d8f0c0d9bbdb9b9194dce6a49adc04c6d11da14d4e0b2db3
+    description: >-
+      Same design as spiralbox-wilcom-bernina. Byte-identical to
+      spiralbox-ew.exp; the "+" variant only adds companion .inf (Bernina
+      thread colors) and .bmp files, which are not included here. Uses
+      80 02 for jumps, writes no zero stitches after jumps, and starts with
+      three jumps to the top-left corner.

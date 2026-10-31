@@ -8,4 +8,48 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom-c.XXX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7a91b41023ba87503da3d3286f1f9f2fae11e6e112a96d16498f63988d8014e8
+    description: >-
+      Random design: 30 stitches in 10 colors. Header fills end position
+      and start offset; color changes 7f 08; long jumps split into 0x7e
+      records; 10 palette colors, 11 empty slots, white last slot.
+      Byte-identical to random1-wilcom-s.XXX (not copied).
+  - file: random1-premier.xxx
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: 23065959bae62d42af47d783495e921a11b1353690bd743a15af7a411a07e494
+    description: >-
+      Same design as random1-wilcom-c. Long stitches as 0x7d records and
+      long jumps as 0x7e, no 7f 01 jumps; color changes mix 7f 08 with
+      7f 09 / 7f 0b / 7f 0e; one 7f 03 before the end; color count 0;
+      1777 bytes after the palette.
+  - file: random2-me-c.xxx
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: e149096dd0de5e367ec077a04a8e515a79b9a98ea0bceba6ed841fd0626bcee1
+    description: >-
+      Random design: 30 stitches in 10 colors, "-c" variant. Color changes
+      7f 0a ... 7f 11, 7f 09 (needles 2-9, then 1), end record 7f 18 00 00,
+      palette area all zero.
+  - file: random2-me-s.xxx
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 52b2b33ba5ef954960eaa20fd998cfe95f5c7af7ee35181e4d7731d73916463c
+    description: >-
+      Same design as random2-me-c, "-s" variant. Color changes all 7f 08,
+      end record 7f 7f 03 14, 22-slot palette filled (10 design colors
+      plus 12 more).

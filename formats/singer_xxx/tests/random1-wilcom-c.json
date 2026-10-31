@@ -1,0 +1,39 @@
+{
+  "header": {
+    "stitch_count": 156,
+    "color_count": 10,
+    "width": 947,
+    "height": 969,
+    "end_x": -37,
+    "end_y": 152,
+    "start_x": 479,
+    "start_y": 469,
+    "unknown_0x7b": 2019,
+    "unknown_0x7d": 7,
+    "unknown_0x7e": 13,
+    "unknown_0xf2": 32,
+    "end_offset": 0
+  },
+  "num_records": 157,
+  "records": {
+    "0": { "byte0": 127, "command": 1, "dx": -80, "dy": -28, "is_jump": true, "is_stitch": false, "is_end": false },
+    "2": { "byte0": 0, "stitch_dy": 0, "dx": 0, "dy": 0, "is_stitch": true, "is_jump": false },
+    "10": { "command": 8, "dx": 0, "dy": 0, "is_color_change": true, "needle": 0, "is_jump": false, "is_end": false },
+    "17": { "byte0": 126, "long_dx": -13, "long_dy": -122, "dx": -13, "dy": -122, "is_long": true, "is_jump": true, "is_stitch": false },
+    "22": { "byte0": 125, "dx": -13, "dy": -122, "is_long": true, "is_stitch": true, "is_jump": false },
+    "155": { "byte0": 77, "stitch_dy": -111, "dx": 77, "dy": -111, "is_stitch": true },
+    "-1": { "byte0": 127, "command": 127, "command_dx": 2, "command_dy": 20, "dx": 0, "dy": 0, "is_end": true, "is_color_change": false, "is_jump": false }
+  },
+  "color_section": {
+    "unknown_0x00": "0000",
+    "colors": {
+      "0": { "unknown_0x00": 0, "red": 135, "green": 135, "blue": 135 },
+      "1": { "red": 104, "green": 106, "blue": 176 },
+      "9": { "red": 255, "green": 217, "blue": 17 },
+      "10": { "red": 0, "green": 0, "blue": 0 },
+      "21": { "red": 255, "green": 255, "blue": 255 }
+    },
+    "unknown_0x5a": "0001"
+  },
+  "extra": ""
+}

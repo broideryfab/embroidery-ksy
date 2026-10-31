@@ -1,0 +1,27 @@
+{
+  "header": {
+    "stitch_count": 218,
+    "color_count": 10,
+    "width": 943,
+    "height": 830,
+    "end_offset": 1064
+  },
+  "num_records": 218,
+  "records": {
+    "0": { "byte0": 127, "command": 1, "dx": -78, "dy": 25, "is_jump": true },
+    "16": { "command": 8, "is_color_change": true, "needle": 0 },
+    "188": { "command": 8, "is_color_change": true, "needle": 0 },
+    "-1": { "byte0": 127, "command": 127, "command_dx": 3, "command_dy": 20, "dx": 0, "dy": 0, "is_end": true }
+  },
+  "color_section": {
+    "unknown_0x00": "0000",
+    "colors": {
+      "0": { "unknown_0x00": 0, "red": 255, "green": 186, "blue": 4 },
+      "1": { "red": 128, "green": 128, "blue": 128 },
+      "9": { "red": 186, "green": 156, "blue": 95 },
+      "21": { "red": 255, "green": 248, "blue": 240 }
+    },
+    "unknown_0x5a": "0036"
+  },
+  "extra": ""
+}

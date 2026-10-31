@@ -8,4 +8,46 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-janome.jef
+    version: ""
+    created_with: Janome software
+    author: EmbroidePy
+    license: MIT
+    sha256: 7600ec71faad2e044b63015f23ae1085de88d53e838d1a039c671ddd83e017f2
+    description: >-
+      Random design: 30 stitches in 10 colors. Flags 0x14, hoop code 3,
+      design extents in Janome order (match the DST header of the same
+      design), long moves split into jumps of up to 127 units.
+  - file: spiralbox-janome.jef
+    version: ""
+    created_with: Janome software
+    author: EmbroidePy
+    license: MIT
+    sha256: 1505db88d3c81534a331fa63c8f78a5ebb4c33007ddad0e135aff3170b742080
+    description: >-
+      A 10 mm square followed by rotated copies, one color each: 16 colors,
+      15 color changes. First records are a 100-unit jump and a 100-unit
+      stitch along X.
+  - file: random1-premier.jef
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: bc29d7080a2c1a3365913428176126dd38b0d440c8c8ae18eec63e552a0d3295
+    description: >-
+      Same design as random1-janome. Hoop code 6 (not in the known list),
+      hoop fit values in a different order than Janome's, stitch data
+      starts with a stitch rather than a jump.
+  - file: random1-me.jef+
+    version: JEF+
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 26e5da1041a9dc8ed6eff6d4bdafd9ed881d6a6d63c16d46b1d6970f0904c69e
+    description: >-
+      JEF+ variant of the same design. Flags 0x01, 22-byte block with
+      "JANOME" before the stitch data, X/Y swapped in the extents, and a
+      52-byte block plus a complete second JEF file after the end record.

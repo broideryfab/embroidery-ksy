@@ -1,0 +1,27 @@
+{
+  "header": {
+    "stitch_offset": 196,
+    "flags": 20,
+    "date_time": "20190713044146",
+    "color_count": 10,
+    "point_count": 449,
+    "hoop_code": 6,
+    "design_extents": { "left": 479, "top": 499, "right": 469, "bottom": 469 },
+    "hoop_fits": [
+      { "left": 71, "top": 81, "right": 51, "bottom": 81 },
+      { "left": -1, "top": -1, "right": -1, "bottom": -1 },
+      { "left": 221, "top": 531, "right": 201, "bottom": 531 },
+      { "left": 221, "top": 531, "right": 201, "bottom": 531 }
+    ]
+  },
+  "color_indices": [50, 50, 41, 68, 15, 74, 68, 50, 72, 72],
+  "header_extension": "",
+  "num_records": 244,
+  "records": {
+    "0": { "byte0": 252, "byte1": 15, "dx": -4, "dy": 15, "is_stitch": true },
+    "2": { "byte0": 128, "byte1": 2, "dx": -73, "dy": -33, "is_jump": true },
+    "16": { "byte0": 128, "byte1": 1, "is_color_change": true },
+    "-1": { "byte0": 128, "byte1": 16, "is_end": true }
+  },
+  "trailer": ""
+}

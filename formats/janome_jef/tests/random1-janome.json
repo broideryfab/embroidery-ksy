@@ -1,0 +1,29 @@
+{
+  "header": {
+    "stitch_offset": 196,
+    "flags": 20,
+    "date_time": "20190713105444",
+    "reserved_0x16": "0000",
+    "color_count": 10,
+    "point_count": 236,
+    "hoop_code": 3,
+    "design_extents": { "left": 479, "top": 500, "right": 468, "bottom": 469 },
+    "hoop_fits": [
+      { "left": 71, "top": 50, "right": 82, "bottom": 81 },
+      { "left": -1, "top": -1, "right": -1, "bottom": -1 },
+      { "left": 221, "top": 500, "right": 232, "bottom": 531 },
+      { "left": 221, "top": 500, "right": 232, "bottom": 531 }
+    ]
+  },
+  "color_indices": [29, 59, 59, 62, 15, 32, 62, 50, 70, 73],
+  "thread_types": [13, 13, 13, 13, 13, 13, 13, 13, 13, 13],
+  "header_extension": "",
+  "num_records": 132,
+  "records": {
+    "0": { "byte0": 128, "byte1": 2, "command_dx": 127, "command_dy": 62, "command": 2, "dx": 127, "dy": 62, "is_jump": true, "is_stitch": false, "is_end": false },
+    "3": { "byte0": 128, "byte1": 1, "command": 1, "dx": 0, "dy": 0, "is_color_change": true, "is_jump": false },
+    "7": { "byte0": 173, "byte1": 46, "dx": -83, "dy": 46, "is_stitch": true, "is_command": false },
+    "-1": { "byte0": 128, "byte1": 16, "command": 16, "dx": 0, "dy": 0, "is_end": true, "is_jump": false }
+  },
+  "trailer": ""
+}

@@ -91,12 +91,12 @@ color companion files.
 | Spec | Extensions | Vendor | Priority | Status |
 |---|---|---|---|---|
 | [tajima_dst](formats/tajima_dst/) | .dst | Tajima | 1 | 🟡 Partial |
-| [brother_pes](formats/brother_pes/) | .pes | Brother / Baby Lock | 1 | 🔲 Stub |
-| [brother_pec](formats/brother_pec/) | .pec | Brother | 1 | 🔲 Stub |
-| [janome_jef](formats/janome_jef/) | .jef | Janome / Elna | 1 | 🔲 Stub |
-| [melco_exp](formats/melco_exp/) | .exp | Melco / Bernina | 1 | 🔲 Stub |
-| [husqvarna_vp3](formats/husqvarna_vp3/) | .vp3 | Husqvarna Viking / Pfaff | 1 | 🔲 Stub |
-| [singer_xxx](formats/singer_xxx/) | .xxx | Singer | 1 | 🔲 Stub |
+| [brother_pes](formats/brother_pes/) | .pes | Brother / Baby Lock | 1 | 🟡 Partial |
+| [brother_pec](formats/brother_pec/) | .pec | Brother | 1 | 🟡 Partial |
+| [janome_jef](formats/janome_jef/) | .jef | Janome / Elna | 1 | 🟡 Partial |
+| [melco_exp](formats/melco_exp/) | .exp | Melco / Bernina | 1 | 🟡 Partial |
+| [husqvarna_vp3](formats/husqvarna_vp3/) | .vp3 | Husqvarna Viking / Pfaff | 1 | 🟡 Partial |
+| [singer_xxx](formats/singer_xxx/) | .xxx | Singer | 1 | 🟡 Partial |
 | [husqvarna_hus](formats/husqvarna_hus/) | .hus | Husqvarna Viking | 2 | 🔲 Stub |
 | [husqvarna_vip](formats/husqvarna_vip/) | .vip | Husqvarna Viking / Pfaff | 2 | 🔲 Stub |
 | [husqvarna_shv](formats/husqvarna_shv/) | .shv | Husqvarna Viking | 2 | 🔲 Stub |

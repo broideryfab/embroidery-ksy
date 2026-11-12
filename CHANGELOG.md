@@ -18,6 +18,9 @@ may change without notice.
   records with decoded `dx`, `dy` and command flags, trailer. Four MIT
   samples from EmbroidePy/samples (Wilcom, Premier+, My Editor) with NOTICE
   and subset tests. Status 🟡 Partial until purpose-built samples land.
+- Tier 1 specs, each 🟡 Partial with README notes, MIT samples
+  (MANIFEST + NOTICE) and subset tests: `brother_pec`, `brother_pes`,
+  `janome_jef`, `melco_exp`, `husqvarna_vp3`, `singer_xxx`.
 - Test runner: list elements can be checked by index
   (`"records": {"0": …, "-1": …}`); `samples/NOTICE` is allowed.
 - CI runs on every branch push and on demand, with kaitai-struct-compiler

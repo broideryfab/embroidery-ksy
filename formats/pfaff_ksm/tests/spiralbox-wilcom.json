@@ -1,0 +1,96 @@
+{
+  "num_records": 115,
+  "records": {
+    "0": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 135,
+      "command_code": 7,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "1": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 139,
+      "command_code": 11,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "2": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 153,
+      "command_code": 25,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "3": {
+      "dy_magnitude": 100,
+      "dx_magnitude": 0,
+      "control": 160,
+      "command_code": 0,
+      "dx": 0,
+      "dy": -100,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "4": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 100,
+      "control": 128,
+      "command_code": 0,
+      "dx": 100,
+      "dy": 0,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "5": {
+      "dy_magnitude": 100,
+      "dx_magnitude": 0,
+      "control": 128,
+      "command_code": 0,
+      "dx": 0,
+      "dy": 100,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "6": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 100,
+      "control": 192,
+      "command_code": 0,
+      "dx": -100,
+      "dy": 0,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "-2": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 155,
+      "command_code": 27,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "-1": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 136,
+      "command_code": 8,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": true
+    }
+  },
+  "trailer": ""
+}

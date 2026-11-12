@@ -1,11 +1,40 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.PCS
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 9fc449b825320b9db0e3afdab09cd679a53ebd453c963d18cee4fc316a963f70
+    description: >-
+      Random design, 30 stitches in 10 colors, 16-entry color table, large
+      hoop. 52 records, the last one all zero, then 5 more zero bytes.
+  - file: random1-premier.pcs
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: d411ce28d69c5405119f920a730b26c19ab54d4d5ab6720f78967082bade4937
+    description: >-
+      Same design as random1-wilcom. 15-entry color table, exactly 48
+      records and no padding.
+  - file: random1-me.pcs
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 176313c0e647dbeb65ed30e3999eae8493f248cad41d9b416fa458f0f6797c59
+    description: >-
+      Same design as random1-wilcom. 16-entry color table, with a long run
+      of zero padding after the records.
+  - file: spiralbox-wilcom-b.PCS
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7791b66721fe2e0037c10ad77a63f09a113fa1648739fb0207febffd1defb684
+    description: >-
+      Small design (7 stitch records) with hoop code 2; shows move records
+      (control 0x04).

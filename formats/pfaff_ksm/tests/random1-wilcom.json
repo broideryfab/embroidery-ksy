@@ -1,0 +1,56 @@
+{
+  "num_records": 151,
+  "records": {
+    "0": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 135,
+      "command_code": 7,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "1": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 139,
+      "command_code": 11,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": false
+    },
+    "2": {
+      "dy_magnitude": 28,
+      "dx_magnitude": 80,
+      "control": 224,
+      "command_code": 0,
+      "dx": -80,
+      "dy": -28,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "3": {
+      "dy_magnitude": 28,
+      "dx_magnitude": 79,
+      "control": 224,
+      "command_code": 0,
+      "dx": -79,
+      "dy": -28,
+      "is_stitch": true,
+      "is_end": false
+    },
+    "-1": {
+      "dy_magnitude": 0,
+      "dx_magnitude": 0,
+      "control": 136,
+      "command_code": 8,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": false,
+      "is_end": true
+    }
+  },
+  "trailer": ""
+}

@@ -1,0 +1,67 @@
+{
+  "version": 50,
+  "hoop_code": 3,
+  "color_count": 15,
+  "colors": {
+    "0": {
+      "red": 101,
+      "green": 87,
+      "blue": 135,
+      "reserved_0x03": 0
+    },
+    "-1": {
+      "red": 192,
+      "green": 192,
+      "blue": 192,
+      "reserved_0x03": 0
+    }
+  },
+  "stitch_count": 38,
+  "records": {
+    "0": {
+      "x_raw": 0,
+      "y_raw": 0,
+      "control": 3,
+      "x": 0,
+      "y": 0,
+      "x_fraction": 0,
+      "is_stitch": false,
+      "is_color_change": true,
+      "is_move": false
+    },
+    "1": {
+      "x_raw": 92311,
+      "y_raw": 88318,
+      "control": 0,
+      "x": 360,
+      "y": 344,
+      "x_fraction": 151,
+      "is_stitch": true,
+      "is_color_change": false,
+      "is_move": false
+    },
+    "2": {
+      "x_raw": 92158,
+      "y_raw": 88318,
+      "control": 0,
+      "x": 359,
+      "y": 344,
+      "x_fraction": 254,
+      "is_stitch": true,
+      "is_color_change": false,
+      "is_move": false
+    },
+    "-1": {
+      "x_raw": 87396,
+      "y_raw": 109361,
+      "control": 0,
+      "x": 341,
+      "y": 427,
+      "x_fraction": 100,
+      "is_stitch": true,
+      "is_color_change": false,
+      "is_move": false
+    }
+  },
+  "trailer": ""
+}

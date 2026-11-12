@@ -1,0 +1,46 @@
+{
+  "header": {
+    "label": "spiralbox-me",
+    "stitch_count": "    176",
+    "color_change_count": " 16",
+    "extent_x_pos": "  182",
+    "extent_x_neg": "  181",
+    "extent_y_pos": "  181",
+    "extent_y_neg": "  181",
+    "end_offset_x": "    +0",
+    "end_offset_y": "    +0",
+    "terminator": 26
+  },
+  "num_records": 126,
+  "records": {
+    "0": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "1": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "2": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "-1": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 144,
+      "is_end": true,
+      "is_needle_change": false
+    }
+  },
+  "trailer": "1a0000"
+}

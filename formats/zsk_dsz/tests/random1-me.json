@@ -1,0 +1,46 @@
+{
+  "header": {
+    "label": "random1-me",
+    "stitch_count": "      0",
+    "color_change_count": " 10",
+    "extent_x_pos": "  474",
+    "extent_x_neg": "  473",
+    "extent_y_pos": "  484",
+    "extent_y_neg": "  485",
+    "end_offset_x": "    +0",
+    "end_offset_y": "    +0",
+    "terminator": 26
+  },
+  "num_records": 230,
+  "records": {
+    "0": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "1": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "2": {
+      "y_magnitude": 0,
+      "x_magnitude": 0,
+      "control": 129,
+      "dx": 0,
+      "dy": 0
+    },
+    "-1": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 144,
+      "is_end": true,
+      "is_needle_change": false
+    }
+  },
+  "trailer": "1a0000"
+}

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "label": "spiralbo",
+    "stitch_count": "    189",
+    "color_change_count": " 15",
+    "extent_x_pos": "  106",
+    "extent_x_neg": "  257",
+    "extent_y_pos": "  131",
+    "extent_y_neg": "  231",
+    "end_offset_x": "-   25",
+    "end_offset_y": "+   25",
+    "terminator": 26
+  },
+  "num_records": 189,
+  "records": {
+    "0": {
+      "y_magnitude": 50,
+      "x_magnitude": 0,
+      "control": 161,
+      "dx": 0,
+      "dy": -50
+    },
+    "1": {
+      "y_magnitude": 50,
+      "x_magnitude": 0,
+      "control": 160,
+      "dx": 0,
+      "dy": -50
+    },
+    "2": {
+      "y_magnitude": 0,
+      "x_magnitude": 50,
+      "control": 129,
+      "dx": 50,
+      "dy": 0
+    },
+    "-1": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 144,
+      "is_end": true,
+      "is_needle_change": false
+    }
+  },
+  "trailer": "1a"
+}

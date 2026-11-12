@@ -1,11 +1,53 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.DSZ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7713b4ff617c37fe7bb4570df05d5b1414ffe7c2525b2c21b0f8ec71aee9ca2e
+    description: >-
+      Random design, 9 color changes. Label truncated to 8 characters, ST counts every record including the end record, AX/AY filled, one 0x1A byte after the end record. Same design as tajima_dst/random1-wilcom.DST.
+  - file: random1-me.dsz
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: ca91628fc168195b9e94ee62066a889d6e63f0efad29a1d4c2cd15891a9d0b6a
+    description: >-
+      Same design as random1-wilcom. ST is 0, AX/AY are 0, sign next to the digits, 0x00 after the header 0x1A, trailer 1a 00 00. Starts with three 0,0 jumps and has repeated 0x93 needle codes.
+  - file: spiralbox-wilcom.DSZ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 2bb874734a2da4300c682c3a6d8b9b175c7a03ddbfde3b5f11daa153872bdd39
+    description: >-
+      A 10 mm square followed by rotated copies, one color each: 15 color changes. Moves split into 50-unit records.
+  - file: spiralbox-me.dsz
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 27c2200a528be438efb668c48017c1b0ff3c2227e131c4e58bf98663560189a6
+    description: >-
+      Same design as spiralbox-wilcom: ST (176) differs from the record count (126), 16 colors.
+  - file: scene-me.dsz
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: b6217edcbdd068ac38760f1d09b467d95e1406e0e4edb863cdbb506654289f3e
+    description: >-
+      Design with trim commands (0x9b), 3 colors.
+  - file: scene-wilcom.DSZ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 503bc9c62a7128c48bd56d9c57e285cbcec24a9ffcf328f8e9d23f809fbd98b4
+    description: >-
+      Same design as scene-me, 2 color changes, no trim commands, large offset from the start point (+X 1110, -X 40).

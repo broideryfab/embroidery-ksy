@@ -1,0 +1,27 @@
+{
+  "num_stitches": 245,
+  "num_colors": 10,
+  "extent_max_x": 469,
+  "extent_max_y": 499,
+  "extent_min_x": -479,
+  "extent_min_y": -469,
+  "ofs_attributes": 150,
+  "ofs_x": 213,
+  "ofs_y": 349,
+  "unknown_0x28": "0000",
+  "encoded_colors": "4b9efd92cf316aac80368925094594da1fa3b95d87a51d75ea9e7cc815cf917e76b2dec607ef6988",
+  "unknown_color_values": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "len_name": 10,
+  "name": "Settings:\u0000"
+}

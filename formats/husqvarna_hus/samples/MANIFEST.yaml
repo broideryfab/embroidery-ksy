@@ -1,11 +1,45 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.hus
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 72942b12d65e8ab3f24c04d696fd43485b9068a2f790d9b734cf2884b0f40aba
+    description: >-
+      Random design, 10 colors, written by Wings My Editor. Command block starts with the Wings My Editor pattern; no end command; `unknown_0x28` is `00 e9`.
+  - file: random1-premier.hus
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: 61ae59d911799144cfd7729e4066982be28b3c6ce0673b8b0ce314aec6531e29
+    description: >-
+      Random design, 10 colors, written by Premier+ (VSM). Ends with a trim and an end command.
+  - file: random1-wilcom.HUS
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7370e7a4e47f0928c523383d65d7fa95143a6c0259056de8d6658e9f9afd0aed
+    description: >-
+      Random design, 10 colors, written by Wilcom. Ends with an end command.
+  - file: spiralbox-me.hus
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 7bdbbb37248e71c16d6c107c5a959674dc7993c7cef5413a2a5d6918a6968e80
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wings My Editor. Command block starts with the Wings My Editor pattern; no end command; `unknown_0x28` is `00 e9`.
+  - file: spiralbox-wilcom.HUS
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 299658decdfa674b1686da06c074584f3f63a6a67d568f822c41ad623a70d0bd
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wilcom. Ends with an end command.

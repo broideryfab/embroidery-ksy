@@ -1,0 +1,33 @@
+{
+  "num_stitches": 125,
+  "num_colors": 16,
+  "extent_max_x": 106,
+  "extent_max_y": 131,
+  "extent_min_x": -257,
+  "extent_min_y": -231,
+  "ofs_attributes": 212,
+  "ofs_x": 232,
+  "ofs_y": 331,
+  "unknown_0x28": "0000",
+  "encoded_colors": "c356adc2f16528eeba727ad6ac818cc24bbc5db9629ad5bd0c5679cda8a86689032c0810d55f20c1e54c25947edf448f8d175d0dfc43113db07e41d076c08254",
+  "unknown_color_values": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "len_name": 17,
+  "name": "spiralbox-wilcom\u0000"
+}

@@ -1,11 +1,37 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.shv
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 8cde803f0da455199b5527a723d5f2b986de04bdf2fbdcd10649055a4a1be13f
+    description: >-
+      Random design, 10 colors, written by Wings My Editor. Banner of Wings LTD eXPirience; color records flag 2.
+  - file: random1-wilcom.SHV
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: a53c586e762bed1624fbc9e85f24eb3f9587c9dcb9ad65ca92ef57c5f3640291
+    description: >-
+      Random design, 10 colors, written by Wilcom. Banner "This is an SHV format embroidery file..."; color records flag 0, extents as in the HUS file.
+  - file: spiralbox-me.shv
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 7f1d1953d2b487fec03b9a8b9af9242e73dc7dc8ecf9514c2926bfbca62cd686
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wings My Editor. Banner of Wings LTD eXPirience; color records flag 2.
+  - file: spiralbox-wilcom.SHV
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 1125b673d590d093aade37baed379f1c0d04a3ae284f4167f98837ac0d7fb0f5
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wilcom. Banner "This is an SHV format embroidery file..."; color records flag 0, extents as in the HUS file.

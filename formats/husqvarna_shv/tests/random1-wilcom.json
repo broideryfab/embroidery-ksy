@@ -1,0 +1,87 @@
+{
+  "name": "random1-",
+  "thumbnail_width": 95,
+  "thumbnail_height": 97,
+  "num_colors": 10,
+  "colors": [
+    {
+      "num_records": 15,
+      "thread_index": 6,
+      "start_x": 0,
+      "start_y": 0
+    },
+    {
+      "num_records": 15,
+      "thread_index": 7,
+      "start_x": 368,
+      "start_y": -181
+    },
+    {
+      "num_records": 15,
+      "thread_index": 33,
+      "start_x": 367,
+      "start_y": -294
+    },
+    {
+      "num_records": 15,
+      "thread_index": 21,
+      "start_x": -479,
+      "start_y": 144
+    },
+    {
+      "num_records": 15,
+      "thread_index": 7,
+      "start_x": 290,
+      "start_y": -500
+    },
+    {
+      "num_records": 15,
+      "thread_index": 19,
+      "start_x": 433,
+      "start_y": -372
+    },
+    {
+      "num_records": 15,
+      "thread_index": 21,
+      "start_x": -41,
+      "start_y": -436
+    },
+    {
+      "num_records": 15,
+      "thread_index": 38,
+      "start_x": -194,
+      "start_y": -159
+    },
+    {
+      "num_records": 15,
+      "thread_index": 27,
+      "start_x": -309,
+      "start_y": 469
+    },
+    {
+      "num_records": 15,
+      "thread_index": 37,
+      "start_x": -412,
+      "start_y": 106
+    }
+  ],
+  "stitches": {
+    "0": {
+      "x": -128,
+      "y": 1,
+      "dx": -159,
+      "dy": 56
+    },
+    "-1": {
+      "x": 77,
+      "y": 111,
+      "dx": 77,
+      "dy": 111
+    }
+  },
+  "unknown_total": 150,
+  "extent_max_x": 468,
+  "extent_max_y": 500,
+  "extent_min_x": -479,
+  "extent_min_y": -469
+}

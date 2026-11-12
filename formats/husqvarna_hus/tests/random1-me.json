@@ -1,0 +1,24 @@
+{
+  "num_stitches": 223,
+  "num_colors": 10,
+  "extent_max_x": 474,
+  "extent_max_y": 484,
+  "extent_min_x": -473,
+  "extent_min_y": -485,
+  "ofs_commands": 62,
+  "ofs_x": 116,
+  "ofs_y": 242,
+  "unknown_0x28": "00e9",
+  "thread_indexes": [
+    22,
+    18,
+    4,
+    20,
+    26,
+    25,
+    6,
+    21,
+    24,
+    5
+  ]
+}

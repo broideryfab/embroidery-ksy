@@ -1,0 +1,123 @@
+{
+  "name": "spiralbo",
+  "thumbnail_width": 36,
+  "thumbnail_height": 36,
+  "num_colors": 16,
+  "colors": [
+    {
+      "num_records": 4,
+      "thread_index": 3,
+      "start_x": 0,
+      "start_y": 0
+    },
+    {
+      "num_records": 9,
+      "thread_index": 33,
+      "start_x": 0,
+      "start_y": 0
+    },
+    {
+      "num_records": 9,
+      "thread_index": 34,
+      "start_x": 14,
+      "start_y": 33
+    },
+    {
+      "num_records": 9,
+      "thread_index": 6,
+      "start_x": 14,
+      "start_y": 68
+    },
+    {
+      "num_records": 9,
+      "thread_index": 37,
+      "start_x": 0,
+      "start_y": 100
+    },
+    {
+      "num_records": 9,
+      "thread_index": 27,
+      "start_x": -25,
+      "start_y": 125
+    },
+    {
+      "num_records": 9,
+      "thread_index": 25,
+      "start_x": -58,
+      "start_y": 139
+    },
+    {
+      "num_records": 9,
+      "thread_index": 12,
+      "start_x": -93,
+      "start_y": 139
+    },
+    {
+      "num_records": 9,
+      "thread_index": 11,
+      "start_x": -126,
+      "start_y": 125
+    },
+    {
+      "num_records": 9,
+      "thread_index": 10,
+      "start_x": -151,
+      "start_y": 101
+    },
+    {
+      "num_records": 9,
+      "thread_index": 4,
+      "start_x": -164,
+      "start_y": 68
+    },
+    {
+      "num_records": 9,
+      "thread_index": 27,
+      "start_x": -164,
+      "start_y": 32
+    },
+    {
+      "num_records": 9,
+      "thread_index": 26,
+      "start_x": -151,
+      "start_y": 0
+    },
+    {
+      "num_records": 9,
+      "thread_index": 21,
+      "start_x": -126,
+      "start_y": -25
+    },
+    {
+      "num_records": 9,
+      "thread_index": 9,
+      "start_x": -93,
+      "start_y": -39
+    },
+    {
+      "num_records": 9,
+      "thread_index": 2,
+      "start_x": -58,
+      "start_y": -39
+    }
+  ],
+  "stitches": {
+    "0": {
+      "x": 0,
+      "y": 100,
+      "dx": 0,
+      "dy": 100
+    },
+    "-1": {
+      "x": -92,
+      "y": 38,
+      "dx": -92,
+      "dy": 38
+    }
+  },
+  "unknown_total": 139,
+  "extent_max_x": 106,
+  "extent_max_y": 131,
+  "extent_min_x": -257,
+  "extent_min_y": -231
+}

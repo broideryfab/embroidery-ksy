@@ -1,0 +1,119 @@
+{
+  "name": "spiralbox",
+  "thumbnail_width": 37,
+  "thumbnail_height": 37,
+  "num_colors": 16,
+  "colors": [
+    {
+      "num_records": 10,
+      "thread_index": 3,
+      "start_x": 0,
+      "start_y": 0
+    },
+    {
+      "num_records": 9,
+      "thread_index": 1,
+      "start_x": 90,
+      "start_y": -17
+    },
+    {
+      "num_records": 9,
+      "thread_index": 14,
+      "start_x": 90,
+      "start_y": 18
+    },
+    {
+      "num_records": 9,
+      "thread_index": 6,
+      "start_x": 76,
+      "start_y": 50
+    },
+    {
+      "num_records": 10,
+      "thread_index": 5,
+      "start_x": 51,
+      "start_y": 75
+    },
+    {
+      "num_records": 9,
+      "thread_index": 26,
+      "start_x": 18,
+      "start_y": 89
+    },
+    {
+      "num_records": 9,
+      "thread_index": 10,
+      "start_x": -17,
+      "start_y": 89
+    },
+    {
+      "num_records": 9,
+      "thread_index": 12,
+      "start_x": -50,
+      "start_y": 75
+    },
+    {
+      "num_records": 10,
+      "thread_index": 40,
+      "start_x": -75,
+      "start_y": 51
+    },
+    {
+      "num_records": 9,
+      "thread_index": 16,
+      "start_x": -88,
+      "start_y": 18
+    },
+    {
+      "num_records": 9,
+      "thread_index": 4,
+      "start_x": -88,
+      "start_y": -18
+    },
+    {
+      "num_records": 9,
+      "thread_index": 24,
+      "start_x": -75,
+      "start_y": -50
+    },
+    {
+      "num_records": 10,
+      "thread_index": 26,
+      "start_x": -50,
+      "start_y": -75
+    },
+    {
+      "num_records": 9,
+      "thread_index": 21,
+      "start_x": -17,
+      "start_y": -89
+    },
+    {
+      "num_records": 9,
+      "thread_index": 9,
+      "start_x": 18,
+      "start_y": -89
+    },
+    {
+      "num_records": 5,
+      "thread_index": 37,
+      "start_x": 51,
+      "start_y": -75
+    }
+  ],
+  "stitches": {
+    "0": {
+      "x": 76,
+      "y": -50,
+      "dx": 76,
+      "dy": -50
+    },
+    "-1": {
+      "x": -92,
+      "y": 38,
+      "dx": -92,
+      "dy": 38
+    }
+  },
+  "unknown_total": 100
+}

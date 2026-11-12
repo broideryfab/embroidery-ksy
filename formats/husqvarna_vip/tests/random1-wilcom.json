@@ -1,0 +1,27 @@
+{
+  "num_stitches": 156,
+  "num_colors": 10,
+  "extent_max_x": 468,
+  "extent_max_y": 500,
+  "extent_min_x": -479,
+  "extent_min_y": -469,
+  "ofs_attributes": 160,
+  "ofs_x": 212,
+  "ofs_y": 344,
+  "unknown_0x28": "0000",
+  "encoded_colors": "a9accfa0f0335f99ac338b273960b1ff3bba9e7aa88b670fdf9b5feb3194fc1334d2968e48a00aeb",
+  "unknown_color_values": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "len_name": 15,
+  "name": "random1-wilcom\u0000"
+}

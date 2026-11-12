@@ -8,4 +8,62 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.sew
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: fc5404e4f9a7cb9963bb43be5d2ee7683cfe97501daf4d6e4d2d6f99d6fb2d42
+    description: >-
+      Random design, 10 colors: 30 stitches, 184 jumps, 9 color changes.
+      No end record. Second color table all 7, third table all 0.
+  - file: random1-wilcom.SEW
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: f9e0cda3c9a5597517c757cc78805826eeb97cb7f3f39a243a920b97a081243a
+    description: >-
+      Same design as random1-me, 10 colors: 40 stitches, 110 jumps, 9 color
+      changes, ends with 80 10. Second table all 8, third table non-zero,
+      empty preview bitmap.
+  - file: random2-premier.sew
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: e191d45644b40cec7f2f61a7e7ac74e26c71bdc7b59963ae5826ac7248b6ce58
+    description: >-
+      Random design, 10 colors: 37 stitches, 189 jumps, 9 color changes,
+      ends with 80 10. Third table holds values 0x1c-0x3c.
+  - file: spiralb0.sew
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: e0d78ad38a5bbeaf247770a956a05b8710d224681ff5b648be76f5350f9742ba
+    description: >-
+      A 10 mm square followed by rotated copies, 13 colors (more than the 12
+      table slots; the 13th index overwrites the start of the second table).
+      No end record.
+  - file: spiralbox-premier_1.sew
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: f3e9dd017370ae50c75c5f68bd5274dd6df9068f372752617d1e2b505dae9c23
+    description: >-
+      Spiral of squares, 12 colors (exactly fills the table slots), 72
+      stitches, 53 jumps, 11 color changes, ends with 80 10.
+  - file: spiralbox-wilcom-b.SEW
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 78f387079084568789e177fb03d7198cdbcefb21dca3d5475114aefdb2ebf642
+    description: >-
+      Spiral of squares, 4 colors: 24 stitches, 4 jumps, 3 color changes,
+      ends with 80 10. Shortest file in the set.

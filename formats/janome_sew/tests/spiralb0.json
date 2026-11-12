@@ -1,0 +1,36 @@
+{
+  "color_count": 13,
+  "color_indices": [
+    10,
+    12,
+    75,
+    24,
+    37,
+    23,
+    36,
+    51,
+    35,
+    34,
+    39,
+    73,
+    36
+  ],
+  "num_records": 93,
+  "records": {
+    "0": {
+      "byte0": 128,
+      "byte1": 2,
+      "dx": 126,
+      "dy": -25,
+      "is_jump": true,
+      "is_color_change": false
+    },
+    "-1": {
+      "byte0": 50,
+      "byte1": 181,
+      "dx": 50,
+      "dy": -75,
+      "is_stitch": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header": {
+    "extent_min_x": -257, "extent_min_y": -231, "extent_max_x": 106, "extent_max_y": 131,
+    "record_count": 111, "last_x": -25, "last_y": 25
+  },
+  "num_records": 111,
+  "records": {
+    "0": { "ctrl": 233, "command": 9, "is_needle_change": true, "needle": 1, "dx": 0, "dy": 0 },
+    "1": { "dx": 0, "dy": -100, "is_stitch": true },
+    "2": { "dx": 100, "dy": 0, "is_stitch": true },
+    "3": { "dx": 0, "dy": 100, "is_stitch": true },
+    "4": { "dx": -100, "dy": 0, "is_stitch": true },
+    "5": { "command": 10, "needle": 2 },
+    "-1": { "ctrl": 248, "command": 24, "is_end": true }
+  },
+  "trailer": ""
+}

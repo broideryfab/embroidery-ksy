@@ -1,0 +1,14 @@
+{
+  "header": {
+    "label": "scene-wi", "stitch_count": "    146",
+    "extent_x_pos": " 1110", "extent_x_neg": "   40", "extent_y_pos": "  987", "extent_y_neg": "  139",
+    "end_offset_x": "+  880", "end_offset_y": "+  987"
+  },
+  "num_records": 146,
+  "records": {
+    "66": { "command": 7, "is_trim": true },
+    "77": { "command": 7, "is_trim": true },
+    "-1": { "command": 24, "is_end": true }
+  },
+  "trailer": "1a"
+}

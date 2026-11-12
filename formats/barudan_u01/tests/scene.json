@@ -1,0 +1,9 @@
+{
+  "header": { "record_count": 143, "extent_max_x": 1110, "extent_max_y": 987 },
+  "num_records": 142,
+  "records": {
+    "64": { "command": 7, "is_trim": true },
+    "65": { "ctrl": 232, "command": 8, "is_stop": true },
+    "-1": { "command": 24, "is_end": true }
+  }
+}

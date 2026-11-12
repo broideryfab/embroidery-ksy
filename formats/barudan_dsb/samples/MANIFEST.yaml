@@ -1,11 +1,28 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: spiralbox-wilcom.DSB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 3a9537e32f07fdec0746bfbeb1499cad8470e03c8e6458c39ef3da65cbd84dd3
+    description: >-
+      Same design as spiralbox-wilcom.U01: DST-style header (ST 111, CO 16, AX/AY filled) then the identical record stream, then one 0x1a byte.
+  - file: scene-wilcom.DSB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: f975645dfef77ef5d4d5bd7507d651fff476a57d9fa47946aea7bfa57bffbb43
+    description: >-
+      Scene design with trims (e7); record stream identical to scene-wilcom.U01; one 0x1a byte after the end record.
+  - file: scene-me.dsb
+    version: ""
+    created_with: My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 2ebfbb6e1038ed57b96b02afbdd8420c0ccbe2ce378f1992951c8bebb87631a4
+    description: >-
+      Scene design from My Editor: AX/AY zero, one 0x00 after the 0x1a header terminator, end record 98 00 00 then 1a 00 00.

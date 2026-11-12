@@ -1,11 +1,36 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: spiralbox-wilcom.U01
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 11a16d57556e6a704bf3ff27c560ffb00a8d2e2fc5d7755d1200bd403244f011
+    description: >-
+      A 10 mm square followed by rotated copies, one needle per copy (111 records, 16 needle changes). Same record stream as spiralbox-wilcom.DSB. Header count 111 matches that file's ST. End record f8 00 00.
+  - file: scene-wilcom.U01
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 96242aa8332a9b05d11d1938172669b062d85e1509137035943f45c3747b4af9
+    description: >-
+      Scene design: 22 stitch records with plain 0x80 control bytes, two trims (e7), needle changes e9/ea/eb. End record f8 00 00. Same record stream as scene-wilcom.DSB.
+  - file: scene-me.U01
+    version: ""
+    created_with: My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 6a535b5c06f19ca20b3d17992bdb2fa9315628bb14f19a8c17f2fc3acd921dfe
+    description: >-
+      Scene design from My Editor: trims as 0x86, fast/slow flags (0x82, 0x84) with moves, needle changes 0x89.., end record 98 00 00. Header extents match the ME DSB of the same design.
+  - file: scene.u01
+    version: ""
+    created_with: pyembroidery
+    author: EmbroidePy
+    license: MIT
+    sha256: fbe386e53938aec89a4d2e298ee88c743991e974ad014fe3cd3218ac7c17a084
+    description: >-
+      Scene design written by pyembroidery: stop (e8), header record count is one more than the records present.

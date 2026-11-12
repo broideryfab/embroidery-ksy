@@ -1,0 +1,14 @@
+{
+  "header": {
+    "label": "scene-me", "stitch_count": "    298",
+    "extent_x_pos": "  575", "extent_x_neg": "  575", "extent_y_pos": "  563", "extent_y_neg": "  563",
+    "end_offset_x": "    +0", "end_offset_y": "    +0", "terminator": 26
+  },
+  "num_records": 178,
+  "records": {
+    "10": { "command": 2, "dx": 10, "dy": -17 },
+    "81": { "command": 6, "is_trim": true },
+    "-1": { "ctrl": 152, "is_end": true }
+  },
+  "trailer": "1a0000"
+}

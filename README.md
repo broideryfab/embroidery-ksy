@@ -97,19 +97,19 @@ color companion files.
 | [melco_exp](formats/melco_exp/) | .exp | Melco / Bernina | 1 | 🟡 Partial |
 | [husqvarna_vp3](formats/husqvarna_vp3/) | .vp3 | Husqvarna Viking / Pfaff | 1 | 🟡 Partial |
 | [singer_xxx](formats/singer_xxx/) | .xxx | Singer | 1 | 🟡 Partial |
-| [husqvarna_hus](formats/husqvarna_hus/) | .hus | Husqvarna Viking | 2 | 🔲 Stub |
-| [husqvarna_vip](formats/husqvarna_vip/) | .vip | Husqvarna Viking / Pfaff | 2 | 🔲 Stub |
-| [husqvarna_shv](formats/husqvarna_shv/) | .shv | Husqvarna Viking | 2 | 🔲 Stub |
-| [janome_sew](formats/janome_sew/) | .sew | Janome | 2 | 🔲 Stub |
-| [barudan_u01](formats/barudan_u01/) | .u01, .u00 | Barudan | 2 | 🔲 Stub |
-| [barudan_dsb](formats/barudan_dsb/) | .dsb | Barudan | 2 | 🔲 Stub |
-| [zsk_dsz](formats/zsk_dsz/) | .dsz | ZSK | 2 | 🔲 Stub |
-| [tajima_tbf](formats/tajima_tbf/) | .tbf | Tajima | 2 | 🔲 Stub |
-| [pfaff_ksm](formats/pfaff_ksm/) | .ksm | Pfaff | 2 | 🔲 Stub |
-| [pfaff_pcs](formats/pfaff_pcs/) | .pcs | Pfaff | 2 | 🔲 Stub |
-| [happy_tap](formats/happy_tap/) | .tap | Happy | 2 | 🔲 Stub |
-| [sunstar_dat](formats/sunstar_dat/) | .dat | Sunstar | 2 | 🔲 Stub |
-| [barudan_dat](formats/barudan_dat/) | .dat | Barudan | 2 | 🔲 Stub |
+| [husqvarna_hus](formats/husqvarna_hus/) | .hus | Husqvarna Viking | 2 | 🟡 Partial |
+| [husqvarna_vip](formats/husqvarna_vip/) | .vip | Husqvarna Viking / Pfaff | 2 | 🟡 Partial |
+| [husqvarna_shv](formats/husqvarna_shv/) | .shv | Husqvarna Viking | 2 | 🟡 Partial |
+| [janome_sew](formats/janome_sew/) | .sew | Janome | 2 | 🟡 Partial |
+| [barudan_u01](formats/barudan_u01/) | .u01, .u00 | Barudan | 2 | 🟡 Partial |
+| [barudan_dsb](formats/barudan_dsb/) | .dsb | Barudan | 2 | 🟡 Partial |
+| [zsk_dsz](formats/zsk_dsz/) | .dsz | ZSK | 2 | 🟡 Partial |
+| [tajima_tbf](formats/tajima_tbf/) | .tbf | Tajima | 2 | 🟡 Partial |
+| [pfaff_ksm](formats/pfaff_ksm/) | .ksm | Pfaff | 2 | 🟡 Partial |
+| [pfaff_pcs](formats/pfaff_pcs/) | .pcs | Pfaff | 2 | 🟡 Partial |
+| [happy_tap](formats/happy_tap/) | .tap | Happy | 2 | 🟡 Partial |
+| [sunstar_dat](formats/sunstar_dat/) | .dat | Sunstar | 2 | 🟡 Partial |
+| [barudan_dat](formats/barudan_dat/) | .dat | Barudan | 2 | 🟡 Partial |
 | [toyota_10o](formats/toyota_10o/) | .10o | Toyota | 3 | 🔲 Stub |
 | [toyota_100](formats/toyota_100/) | .100 | Toyota | 3 | 🔲 Stub |
 | [bits_volts_bro](formats/bits_volts_bro/) | .bro | Bits & Volts | 3 | 🔲 Stub |

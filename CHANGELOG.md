@@ -21,6 +21,11 @@ may change without notice.
 - Tier 1 specs, each 🟡 Partial with README notes, MIT samples
   (MANIFEST + NOTICE) and subset tests: `brother_pec`, `brother_pes`,
   `janome_jef`, `melco_exp`, `husqvarna_vp3`, `singer_xxx`.
+- Tier 2 specs, 🟡 Partial: `husqvarna_hus`, `husqvarna_vip`,
+  `husqvarna_shv`, `janome_sew`, `barudan_u01`, `barudan_dsb`,
+  `barudan_dat`, `zsk_dsz`, `tajima_tbf`, `pfaff_ksm`, `pfaff_pcs`,
+  `happy_tap`, `sunstar_dat`. `barudan_dat` and `sunstar_dat` have no
+  samples or tests yet (no redistributable files).
 - Test runner: list elements can be checked by index
   (`"records": {"0": …, "-1": …}`); `samples/NOTICE` is allowed.
 - CI runs on every branch push and on demand, with kaitai-struct-compiler

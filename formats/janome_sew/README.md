@@ -18,7 +18,7 @@ offset 0x1d78; everything before it is a fixed-size header area.
 
 | Offset | Size | Content |
 |---|---|---|
-| 0x00 | 2 | `color_count` |
+| 0x00 | 2 | `num_color_indices` |
 | 0x02 | 2 × n | `color_indices`: Janome palette index per color (u2) |
 | 0x1a | 2 × 12 | `unknown_0x1a`: second per-color table, 12 fixed slots |
 | 0x32 | 2 × 12 | `unknown_0x32`: third per-color table, 12 fixed slots |
@@ -26,7 +26,7 @@ offset 0x1d78; everything before it is a fixed-size header area.
 | 0x4c | … | Zero bytes, then a 1-bit preview bitmap (see below) |
 | 0x1d78 | 2 or 4 per record | Stitch records, up to and including the end record if present |
 
-n = `color_count`. The spec reads `color_count`, `color_indices`, the rest of
+n = `num_color_indices`. The spec reads `num_color_indices`, `color_indices`, the rest of
 the header area as raw `header_rest` (up to 0x1d78) and the stitch records.
 The tables at 0x1a / 0x32 / 0x4a are exposed as instances.
 
@@ -37,7 +37,7 @@ Three tables of 12 u2 slots each follow one another from 0x02, 0x1a and
 of its slots are 0. With more than 12 colors the index list keeps running
 and overwrites the start of the next table: `spiralb0.sew` (13 colors) has
 its 13th index at 0x1a, where the 7 of the second table would be, so the
-second table's first slot is lost. Readers that only use `color_count` and
+second table's first slot is lost. Readers that only use `num_color_indices` and
 `color_indices` are not affected.
 
 - Second table (`unknown_0x1a`): 7 in My Editor and Premier+ files, 8 in

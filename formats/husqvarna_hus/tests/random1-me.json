@@ -1,6 +1,6 @@
 {
   "num_stitches": 223,
-  "num_colors": 10,
+  "num_thread_indexes": 10,
   "extent_max_x": 474,
   "extent_max_y": 484,
   "extent_min_x": -473,

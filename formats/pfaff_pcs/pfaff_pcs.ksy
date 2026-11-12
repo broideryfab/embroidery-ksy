@@ -19,7 +19,7 @@ seq:
     doc: |
       Hoop. 3 in most samples (large hoop), 2 in spiralbox-wilcom-b.PCS
       (small hoop, 80 x 80 mm). Unverified.
-  - id: color_count
+  - id: num_colors
     type: u2
     doc: |
       Number of entries in the color table: 16 in Wilcom and My Editor files,
@@ -27,7 +27,7 @@ seq:
   - id: colors
     type: color
     repeat: expr
-    repeat-expr: color_count
+    repeat-expr: num_colors
     doc: Color table.
   - id: stitch_count
     type: u2
@@ -47,7 +47,7 @@ seq:
     doc: Remaining bytes that do not make a complete record (0 to 8).
 instances:
   num_records:
-    value: (_io.size - (4 + 4 * color_count + 2)) / 9
+    value: (_io.size - (4 + 4 * num_colors + 2)) / 9
     doc: |
       Number of complete 9-byte records between the stitch count and the end
       of the file, padding records included.

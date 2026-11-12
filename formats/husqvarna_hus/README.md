@@ -19,7 +19,7 @@ All multi-byte integers are **little-endian**.
 |---|---|---|---|
 | 0x00 | 4 | `magic` | `5d fc c8 00` |
 | 0x04 | u4 | `num_stitches` | Stitch records, including the `end` command when present |
-| 0x08 | u4 | `num_colors` | Colors (color changes + 1) |
+| 0x08 | u4 | `num_thread_indexes` | Colors (color changes + 1) |
 | 0x0c | 4 × s2 | `extent_max_x`, `extent_max_y`, `extent_min_x`, `extent_min_y` | Design extents, 0.1 mm |
 | 0x14 | 3 × u4 | `ofs_commands`, `ofs_x`, `ofs_y` | Absolute offsets of the three blocks |
 | 0x20 | 8 | `unknown_0x20` | Zero in every sample |

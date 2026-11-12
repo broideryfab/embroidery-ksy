@@ -1,7 +1,7 @@
 {
   "version": 50,
   "hoop_code": 3,
-  "color_count": 15,
+  "num_colors": 15,
   "colors": {
     "0": {
       "red": 101,

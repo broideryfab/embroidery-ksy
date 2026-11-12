@@ -19,7 +19,7 @@ seq:
   - id: num_stitches
     type: u4
     doc: Number of stitch records, the length of each decompressed block, including the final `end` record.
-  - id: num_colors
+  - id: num_unknown_color_values
     type: u4
     doc: Number of colors.
   - id: extent_max_x
@@ -54,10 +54,10 @@ seq:
   - id: unknown_color_section_length
     type: u4
     doc: |
-      Unverified: equals 8 * `num_colors` + 46 in every sample. It is not the
+      Unverified: equals 8 * `num_unknown_color_values` + 46 in every sample. It is not the
       distance to `ofs_attributes`.
   - id: encoded_colors
-    size: num_colors * 4
+    size: num_unknown_color_values * 4
     doc: |
       Obfuscated colors, 4 bytes each. Other readers decode byte i as
       `encoded[i] xor key[i] xor encoded[i-1]` with a fixed 400-byte key
@@ -66,7 +66,7 @@ seq:
   - id: unknown_color_values
     type: u4
     repeat: expr
-    repeat-expr: num_colors
+    repeat-expr: num_unknown_color_values
     doc: Unknown, one per color. 8 in Premier+ files, 1 in Wings My Editor and Wilcom files.
   - id: len_name
     type: u4

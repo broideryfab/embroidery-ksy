@@ -23,7 +23,7 @@ seq:
     doc: |
       Number of stitch records, the length of each decompressed block. Counts
       the final `end` command when the file has one.
-  - id: num_colors
+  - id: num_thread_indexes
     type: u4
     doc: Number of colors; equals the number of color changes plus one.
   - id: extent_max_x
@@ -58,7 +58,7 @@ seq:
   - id: thread_indexes
     type: u2
     repeat: expr
-    repeat-expr: num_colors
+    repeat-expr: num_thread_indexes
     doc: |
       Thread palette index of each color, in stitch order. Indexes 0 to 28
       were seen; the meaning is a fixed Husqvarna palette not included here

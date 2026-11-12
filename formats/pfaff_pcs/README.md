@@ -18,7 +18,7 @@ All values little-endian.
 |---|---|---|---|
 | 0 | 1 | `version` | `0x32` in every sample |
 | 1 | 1 | `hoop_code` | 3 (large) or 2 (small, 80 × 80 mm) |
-| 2 | 2 | `color_count` | Color table entries (16, or 15 for Premier+) |
+| 2 | 2 | `num_colors` | Color table entries (16, or 15 for Premier+) |
 | 4 | 4 × count | `colors` | R, G, B, 0 |
 | 4 + 4 × count | 2 | `stitch_count` | Stitch and move records, **not** counting color change records |
 | +2 | 9 × n | `records` | Records |

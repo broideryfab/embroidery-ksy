@@ -1,5 +1,5 @@
 {
-  "color_count": 10,
+  "num_color_indices": 10,
   "color_indices": [
     24,
     15,

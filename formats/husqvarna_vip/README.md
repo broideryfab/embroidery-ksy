@@ -19,12 +19,12 @@ All multi-byte integers are **little-endian**.
 |---|---|---|---|
 | 0x00 | 4 | `magic` | `5d fc 90 01` |
 | 0x04 | u4 | `num_stitches` | Stitch records, including the final `end` |
-| 0x08 | u4 | `num_colors` | Colors |
+| 0x08 | u4 | `num_unknown_color_values` | Colors |
 | 0x0c | 4 × s2 | `extent_max_x`, `extent_max_y`, `extent_min_x`, `extent_min_y` | Design extents, 0.1 mm |
 | 0x14 | 3 × u4 | `ofs_attributes`, `ofs_x`, `ofs_y` | Absolute offsets of the command ("attribute"), X and Y blocks |
 | 0x20 | 8 | `unknown_0x20` | Zero in every sample |
 | 0x28 | 2 | `unknown_0x28` | As in HUS |
-| 0x2a | u4 | `unknown_color_section_length` | 8 × `num_colors` + 46 in every sample |
+| 0x2a | u4 | `unknown_color_section_length` | 8 × `num_unknown_color_values` + 46 in every sample |
 | 0x2e | 4 × n | `encoded_colors` | Obfuscated RGB colors |
 | … | u4 × n | `unknown_color_values` | 8 (Premier+) or 1 (others) |
 | … | u4 | `len_name` | Name length in UTF-16 code units, with the NUL |
@@ -73,7 +73,7 @@ What each producer writes:
 | `unknown_color_values` | 8 | 1 | 1 |
 | `unknown_0x28` | `00 00` | as HUS | `00 00` |
 
-- `unknown_color_section_length` is a function of `num_colors` only in the
+- `unknown_color_section_length` is a function of `num_unknown_color_values` only in the
   samples, and is not the section's length.
 - The obfuscation key is not included (see Colors). Unverified: whether files
   with more than 100 colors exist.

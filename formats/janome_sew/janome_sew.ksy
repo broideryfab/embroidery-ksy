@@ -15,19 +15,19 @@ doc: |
   have no end record.
 doc-ref: https://github.com/broideryfab/embroidery-ksy/tree/main/formats/janome_sew
 seq:
-  - id: color_count
+  - id: num_color_indices
     type: u2
     doc: Number of colors.
   - id: color_indices
     type: u2
     repeat: expr
-    repeat-expr: color_count
+    repeat-expr: num_color_indices
     doc: |
       Janome thread palette index per color, in sewing order. The palette
       itself is not part of the file. Starts at offset 0x02 (see the README
       for what happens with more than 12 colors).
   - id: header_rest
-    size: 0x1d78 - 2 - 2 * color_count
+    size: 0x1d78 - 2 - 2 * num_color_indices
     doc: |
       Rest of the fixed header area, up to the first stitch record at
       offset 0x1d78. Zero-padded color tables and the preview bitmap live
@@ -55,7 +55,7 @@ instances:
       Unverified: second per-color table with 12 fixed slots. 7 in every
       My Editor, Premier+ and spiralbox sample and 8 in the Wilcom samples
       (compare `thread_types` in janome_jef). Overlaps the end of
-      `color_indices` when color_count is above 12.
+      `color_indices` when num_color_indices is above 12.
   unknown_0x32:
     io: _root._io
     pos: 0x32

@@ -8,4 +8,86 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+#
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: RANDOM1-WILCOM.TBF
+    version: "3.00"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 4d4f4188edcd68ac4177ccd06e2f0a7d9fd08604cfa6e10df1c1abbdadf16b08
+    description: >-
+      Random design: 30 stitches in 10 colors. Version text "3.00", only used colors in the thread table, AX/AY filled.
+  - file: RANDOM2-WILCOM.TBF
+    version: "3.00"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 9ee256c0821bf9656f1cb60d65ff036b7c31761b27ad122669c9fac23de9ff2c
+    description: >-
+      Random design, 30 stitches in 10 colors. Version text "3.00", only used colors in the thread table, AX/AY filled.
+  - file: RANDOM3-WILCOM.TBF
+    version: "3.00"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e26b5dbd61e0df5df5968e08c13784f7e43889816d8aeb06258b46b985582c3f
+    description: >-
+      Random design, 30 stitches in 10 colors. Version text "3.00", only used colors in the thread table, AX/AY filled.
+  - file: SCENE-WILCOM.TBF
+    version: "3.00"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: b9ef1fa8aadffa8efdf69b9db646e4dc5c012a86148d7a40e66056063957d7ee
+    description: >-
+      Scene design with 3 colors and trim records. Version text "3.00", only used colors in the thread table, AX/AY filled.
+  - file: SPIRALBOX-WILCOM.TBF
+    version: "3.00"
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: a0b8d2f9c8e1da5ea940380d321fbe5988e9d0b1ee5ed8feea68611a99a01459
+    description: >-
+      A 10 mm square followed by rotated copies, one color each (16 colors). Version text "3.00", only used colors in the thread table, AX/AY filled.
+  - file: random1-me.TBF
+    version: "03.00"
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 9320bcca814cc9aeee84832b0f69481c880bab97e1cae8808b1c0b40a5f0f074
+    description: >-
+      Random design: 30 stitches in 10 colors. Version text "03.00", 99 thread entries, AX/AY left at zero, jumps between stitch runs.
+  - file: random2-me.TBF
+    version: "03.00"
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 548e0c2703f953c4cac9c43993467f1ceb4fb5a24761d3ee9d8a368ce64a6b42
+    description: >-
+      Random design, 30 stitches in 10 colors. Version text "03.00", 99 thread entries, AX/AY left at zero, jumps between stitch runs.
+  - file: random3-me.TBF
+    version: "03.00"
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 15d0053e61fad314c34f56d7fb118f95b7df9bd3162360de57a6c7c8104e2fa6
+    description: >-
+      Random design, 30 stitches in 10 colors. Version text "03.00", 99 thread entries, AX/AY left at zero, jumps between stitch runs.
+  - file: scene-me.TBF
+    version: "03.00"
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 3545237c3221c96d60e00e7b779fc9cbf63d714d4329d5ff4db0fc8b829acd80
+    description: >-
+      Scene design with 3 colors and trim records. Version text "03.00", 99 thread entries, AX/AY left at zero, jumps between stitch runs.
+  - file: spiralbox-me.TBF
+    version: "03.00"
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: ebbf2bc157ad8977908a09838265ce14d48ff67b7bf2d701617574be1c9af170
+    description: >-
+      A 10 mm square followed by rotated copies, one color each (16 colors). Version text "03.00", 99 thread entries, AX/AY left at zero, jumps between stitch runs.

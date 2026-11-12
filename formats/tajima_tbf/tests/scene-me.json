@@ -1,0 +1,49 @@
+{
+  "version": "03.00",
+  "text_header": {
+    "label": "scene-me",
+    "stitch_count": "    159",
+    "color_change_count": "  3",
+    "extent_x_pos": "  575",
+    "extent_x_neg": "  575",
+    "extent_y_pos": "  563",
+    "extent_y_neg": "  563",
+    "end_offset_x": "    +0",
+    "end_offset_y": "    +0",
+    "type_text": "EG/",
+    "jc": "3"
+  },
+  "thread_area": {
+    "threads": {
+      "0": {
+        "marker": 69,
+        "red": 0,
+        "green": 151,
+        "blue": 223,
+        "separator": 32
+      },
+      "-1": {
+        "marker": 32
+      }
+    }
+  },
+  "num_records": 159,
+  "records": {
+    "0": {
+      "dx": -74,
+      "dy": -61,
+      "command": 144
+    },
+    "1": {
+      "dx": -74,
+      "dy": -61,
+      "command": 144
+    },
+    "-1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 143
+    }
+  },
+  "trailer": "1a"
+}

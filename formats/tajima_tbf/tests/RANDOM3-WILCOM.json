@@ -1,0 +1,49 @@
+{
+  "version": "3.00",
+  "text_header": {
+    "label": "random3-wilcom",
+    "stitch_count": "    166",
+    "color_change_count": " 10",
+    "extent_x_pos": "  479",
+    "extent_x_neg": "  491",
+    "extent_y_pos": "  408",
+    "extent_y_neg": "  495",
+    "end_offset_x": "+  356",
+    "end_offset_y": "-  224",
+    "type_text": "EG/",
+    "jc": "3"
+  },
+  "thread_area": {
+    "threads": {
+      "0": {
+        "marker": 69,
+        "red": 181,
+        "green": 76,
+        "blue": 100,
+        "separator": 32
+      },
+      "-1": {
+        "marker": 32
+      }
+    }
+  },
+  "num_records": 166,
+  "records": {
+    "0": {
+      "dx": 0,
+      "dy": 0,
+      "command": 129
+    },
+    "1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 144
+    },
+    "-1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 143
+    }
+  },
+  "trailer": "1a"
+}

@@ -1,0 +1,49 @@
+{
+  "version": "03.00",
+  "text_header": {
+    "label": "random3-me",
+    "stitch_count": "    237",
+    "color_change_count": " 10",
+    "extent_x_pos": "  485",
+    "extent_x_neg": "  485",
+    "extent_y_pos": "  451",
+    "extent_y_neg": "  452",
+    "end_offset_x": "    +0",
+    "end_offset_y": "    +0",
+    "type_text": "EG/",
+    "jc": "3"
+  },
+  "thread_area": {
+    "threads": {
+      "0": {
+        "marker": 69,
+        "red": 207,
+        "green": 104,
+        "blue": 41,
+        "separator": 32
+      },
+      "-1": {
+        "marker": 32
+      }
+    }
+  },
+  "num_records": 237,
+  "records": {
+    "0": {
+      "dx": -68,
+      "dy": -29,
+      "command": 144
+    },
+    "1": {
+      "dx": -68,
+      "dy": -29,
+      "command": 144
+    },
+    "-1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 143
+    }
+  },
+  "trailer": "1a"
+}

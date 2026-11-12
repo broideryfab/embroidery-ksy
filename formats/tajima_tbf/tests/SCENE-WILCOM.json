@@ -1,0 +1,49 @@
+{
+  "version": "3.00",
+  "text_header": {
+    "label": "scene-wilcom",
+    "stitch_count": "    151",
+    "color_change_count": "  3",
+    "extent_x_pos": " 1110",
+    "extent_x_neg": "   40",
+    "extent_y_pos": "  987",
+    "extent_y_neg": "  139",
+    "end_offset_x": "+  880",
+    "end_offset_y": "+  987",
+    "type_text": "EG/",
+    "jc": "3"
+  },
+  "thread_area": {
+    "threads": {
+      "0": {
+        "marker": 69,
+        "red": 9,
+        "green": 91,
+        "blue": 166,
+        "separator": 32
+      },
+      "-1": {
+        "marker": 32
+      }
+    }
+  },
+  "num_records": 151,
+  "records": {
+    "0": {
+      "dx": 0,
+      "dy": 0,
+      "command": 129
+    },
+    "1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 144
+    },
+    "-1": {
+      "dx": 0,
+      "dy": 0,
+      "command": 143
+    }
+  },
+  "trailer": "1a"
+}

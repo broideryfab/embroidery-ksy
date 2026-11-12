@@ -1,0 +1,10 @@
+{
+  "has_prefix": true,
+  "prefix": "000000000000",
+  "num_records": 219,
+  "records": {
+    "0": { "dx": 0, "dy": 0, "is_jump": true },
+    "-1": { "byte0": 0, "byte1": 0, "byte2": 243, "is_end": true }
+  },
+  "trailer": "000000"
+}

@@ -1,11 +1,41 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.tap
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 5230cb81fd06801ee50661ecdb6212d9ac6d43d3c545731aa430930bd25dc442
+    description: >-
+      Random design, 10 colors. No prefix and no trailer: 303 records ending
+      with 00 00 f3. The records equal those of random1-me.dst.
+  - file: random1-wilcom.TAP
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 78830eff4b4d15a02e01ea48028ad0cbb5a15291543d4c1dc2823622d1d9c931
+    description: >-
+      Same design from Wilcom. Six zero bytes before the first record, 219
+      records (same as random1-wilcom.DST) and three zero bytes after the end
+      record.
+  - file: spiralbox-wilcom.TAP
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 2b8c7d854bad857eca14e1ca83e5c33fc472616bfa56f6602f8216ac016c9087
+    description: >-
+      Spiral box design from Wilcom, 15 color changes, 111 records, six-byte
+      prefix and three-byte trailer.
+  - file: scene-wilcom.TAP
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: d3d55808fab3575b93ed92954f9a23690111e4dbb1d28803d0133b70a6424d1d
+    description: >-
+      Scene design from Wilcom, 150 records, six-byte prefix and three-byte
+      trailer.

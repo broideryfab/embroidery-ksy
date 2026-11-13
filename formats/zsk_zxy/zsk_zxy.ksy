@@ -14,13 +14,13 @@ seq:
     type: u1
     doc: |
       Unverified: not interpreted by any reader.
-  - id: header_length
+  - id: len_unknown_0x03
     type: u2be
     doc: |
       Length in bytes of the header data after this field, i.e. the stitch
-      records start at offset 3 + `header_length`. Unverified.
+      records start at offset 3 + `len_unknown_0x03`. Unverified.
   - id: unknown_0x03
-    size: header_length
+    size: len_unknown_0x03
     doc: |
       Unverified: header data; contents unknown.
   - id: records

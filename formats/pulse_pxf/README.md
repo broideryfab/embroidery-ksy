@@ -8,32 +8,39 @@
 | Priority | Proprietary source format — preview/partial only |
 | Status | 🔲 Stub |
 
-Proprietary source format. Partial at best.
+Proprietary source format. **Nothing about its layout is known** to this
+project: no sample file, no public description, and none of the open-source
+embroidery readers consulted handle it. The status therefore stays a stub;
+the `.ksy` exposes the whole file as raw bytes and claims no structure.
 
 ## Structure
 
-_TODO: file layout, header fields, record encoding._
+Unknown. Unverified whether the file is a container, compressed or plain.
 
 ## Versions
 
-_TODO: known versions and how to detect them._
+None known.
 
 ## Units and coordinates
 
-_TODO: unit size, axis directions, relative vs. absolute positions._
+Unknown.
 
 ## Open questions
 
-_TODO: unknown fields and unverified assumptions._
+Everything: magic bytes, header, container type, preview data, stitch data.
+The first step, once a file is available, is to check its first bytes for
+a signature (for example the compound file signature `D0 CF 11 E0`, which
+Wilcom, Bernina and Melco source formats use).
 
 ## Samples
 
-See [`samples/MANIFEST.yaml`](samples/MANIFEST.yaml). Only files we have the
-right to redistribute.
+None. See [`samples/MANIFEST.yaml`](samples/MANIFEST.yaml) (empty). Needs a
+`.pxf` file saved by Pulse software with the right to redistribute.
 
 ## Sources consulted
 
-_Format facts only — no code copied or translated. List every reference
-used (documentation, observed files, other projects read for understanding)._
+_Format facts only — no code copied or translated._
 
-- _none yet_
+- pyembroidery, pystitch and libembroidery were searched: none mentions PXF
+  handling.
+- No files observed.

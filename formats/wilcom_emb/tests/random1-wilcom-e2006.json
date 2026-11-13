@@ -1,0 +1,342 @@
+{
+  "container": {
+    "header": {
+      "major_version": 3,
+      "sector_shift": 9,
+      "first_dir_sector": 2,
+      "mini_stream_cutoff": 4096,
+      "first_mini_fat_sector": 55,
+      "num_fat_sectors": 1
+    },
+    "root_entry": {
+      "name": "Root Entry",
+      "object_type": 5,
+      "start_sector": 6,
+      "stream_size": 8448
+    }
+  },
+  "entries": {
+    "0": {
+      "name": "Root Entry",
+      "start_sector": 6,
+      "object_type": 5
+    },
+    "1": {
+      "name": "AUX_INFO",
+      "start_sector": 113,
+      "object_type": 2,
+      "stream_size": 9,
+      "is_mini": true
+    },
+    "2": {
+      "name": "Contents",
+      "start_sector": 68,
+      "object_type": 2,
+      "stream_size": 2834,
+      "is_mini": true
+    },
+    "3": {
+      "name": "DesignDocument",
+      "start_sector": 7,
+      "object_type": 2,
+      "stream_size": 3847,
+      "is_mini": true
+    }
+  },
+  "entries_next": {
+    "0": {
+      "name": "\u0005SummaryInformation",
+      "start_sector": 0,
+      "object_type": 2,
+      "stream_size": 389,
+      "is_mini": true
+    },
+    "1": {
+      "name": "\u0005WilcomDesignInformationDDD",
+      "start_sector": 22,
+      "object_type": 2,
+      "stream_size": 10073,
+      "is_mini": false
+    },
+    "2": {
+      "name": "DESIGN_ICON",
+      "start_sector": 114,
+      "object_type": 2,
+      "stream_size": 1091,
+      "is_mini": true
+    },
+    "3": {
+      "name": "TRUEVIEW_ICON",
+      "start_sector": 42,
+      "object_type": 2,
+      "stream_size": 5990,
+      "is_mini": false
+    }
+  },
+  "trueview_icon": {
+    "uncompressed_size": 6484,
+    "jpeg": {
+      "soi": "ffd8ff"
+    }
+  },
+  "design_information": {
+    "num_sections": 1,
+    "section_offset": 48,
+    "section": {
+      "num_properties": 32,
+      "properties": {
+        "1": {
+          "id": 3,
+          "value": {
+            "variant_type": 3,
+            "value": 10
+          }
+        },
+        "2": {
+          "id": 4,
+          "value": {
+            "variant_type": 3,
+            "value": 10
+          }
+        },
+        "3": {
+          "id": 5,
+          "value": {
+            "variant_type": 3,
+            "value": 9
+          }
+        },
+        "4": {
+          "id": 6,
+          "value": {
+            "variant_type": 3,
+            "value": 156
+          }
+        },
+        "5": {
+          "id": 7,
+          "value": {
+            "variant_type": 3,
+            "value": 10
+          }
+        },
+        "8": {
+          "id": 10,
+          "value": {
+            "variant_type": 3,
+            "value": 8622
+          }
+        },
+        "9": {
+          "id": 11,
+          "value": {
+            "variant_type": 3,
+            "value": 8424
+          }
+        },
+        "12": {
+          "id": 14,
+          "value": {
+            "variant_type": 3,
+            "value": -666
+          }
+        },
+        "13": {
+          "id": 15,
+          "value": {
+            "variant_type": 3,
+            "value": 2736
+          }
+        },
+        "17": {
+          "id": 26,
+          "value": {
+            "variant_type": 3,
+            "value": 2286
+          }
+        },
+        "18": {
+          "id": 27,
+          "value": {
+            "variant_type": 3,
+            "value": 9
+          }
+        },
+        "19": {
+          "id": 31,
+          "value": {
+            "variant_type": 3,
+            "value": 180
+          }
+        },
+        "20": {
+          "id": 32,
+          "value": {
+            "variant_type": 3,
+            "value": 100
+          }
+        },
+        "23": {
+          "id": 21,
+          "value": {
+            "variant_type": 3,
+            "value": 10
+          }
+        },
+        "24": {
+          "id": 23,
+          "value": {
+            "variant_type": 3,
+            "value": 2286
+          }
+        },
+        "25": {
+          "id": 22,
+          "value": {
+            "variant_type": 3,
+            "value": 2058
+          }
+        },
+        "26": {
+          "id": 24,
+          "value": {
+            "variant_type": 3,
+            "value": 2
+          }
+        },
+        "29": {
+          "id": 29,
+          "value": {
+            "variant_type": 3,
+            "value": 32
+          }
+        }
+      },
+      "dictionary": {
+        "num_entries": 30,
+        "entries": [
+          {
+            "property_id": 0,
+            "name": ""
+          },
+          {
+            "property_id": 29,
+            "name": "filetype"
+          },
+          {
+            "property_id": 22,
+            "name": "shortest stitch in design"
+          },
+          {
+            "property_id": 19,
+            "name": "embroidery machine name"
+          },
+          {
+            "property_id": 13,
+            "name": "design down"
+          },
+          {
+            "property_id": 23,
+            "name": "longest stitch in design"
+          },
+          {
+            "property_id": 32,
+            "name": "adjustbobbin"
+          },
+          {
+            "property_id": 30,
+            "name": "infostore"
+          },
+          {
+            "property_id": 31,
+            "name": "fabricthickness"
+          },
+          {
+            "property_id": 18,
+            "name": "sequence list"
+          },
+          {
+            "property_id": 17,
+            "name": "design width"
+          },
+          {
+            "property_id": 10,
+            "name": "design left"
+          },
+          {
+            "property_id": 5,
+            "name": "number of trims"
+          },
+          {
+            "property_id": 4,
+            "name": "number of stops"
+          },
+          {
+            "property_id": 3,
+            "name": "number of colours"
+          },
+          {
+            "property_id": 28,
+            "name": "actual creator version"
+          },
+          {
+            "property_id": 20,
+            "name": "unit conversion info"
+          },
+          {
+            "property_id": 12,
+            "name": "design up"
+          },
+          {
+            "property_id": 14,
+            "name": "end x"
+          },
+          {
+            "property_id": 27,
+            "name": "number of colour changes"
+          },
+          {
+            "property_id": 16,
+            "name": "design height"
+          },
+          {
+            "property_id": 15,
+            "name": "end y"
+          },
+          {
+            "property_id": 11,
+            "name": "design right"
+          },
+          {
+            "property_id": 8,
+            "name": "thread length"
+          },
+          {
+            "property_id": 21,
+            "name": "number of funtions in the file"
+          },
+          {
+            "property_id": 9,
+            "name": "bobbin length"
+          },
+          {
+            "property_id": 6,
+            "name": "number of stitches"
+          },
+          {
+            "property_id": 25,
+            "name": "intended version"
+          },
+          {
+            "property_id": 24,
+            "name": "number of jumps per trim"
+          },
+          {
+            "property_id": 7,
+            "name": "number of objects"
+          }
+        ]
+      }
+    }
+  }
+}

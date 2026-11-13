@@ -8,4 +8,124 @@
 #   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
 #   sha256: ""                   # sha256 of the file
 #   description: ""              # what it demonstrates
-samples: []
+samples:
+  - file: random1-wilcom-e1.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e1)
+    author: EmbroidePy
+    license: MIT
+    sha256: cc574b4029f3f0c30239b2954c554168fbd388ed59335146e5544a0e705a75f5
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB; the file name suffix e1 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random1-wilcom-e15.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e15)
+    author: EmbroidePy
+    license: MIT
+    sha256: f17cdfba33d753a569d877c55c3439b882985aa660074a12fffd3882f88be2a1
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB; the file name suffix e15 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random1-wilcom-e18.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e18)
+    author: EmbroidePy
+    license: MIT
+    sha256: fac3d859b0126aa6c63941fa588f0f25baab6d6ba7844a8fe920e357e33068fb
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB; the file name suffix e18 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random1-wilcom-e2.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e2)
+    author: EmbroidePy
+    license: MIT
+    sha256: 202c8aeedcce3e80e4404ff7bbd1c2585ad1a7e2963b2fea3bea4163a91bb75b
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB; the file name suffix e2 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random1-wilcom-e2006.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e2006)
+    author: EmbroidePy
+    license: MIT
+    sha256: 9e299af29dcd47dd27a25d2a4de696fa53deb75b35689f98658f5d677a8bfacb
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB; the file name suffix e2006 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random1-wilcom.EMB
+    version: ""
+    created_with: Wilcom software
+    author: EmbroidePy
+    license: MIT
+    sha256: 5fd603988f919f75de97a01c118c68712cbdf60b81f87dfca9d0ef27262cb973
+    description: >-
+      The EmbroidePy "random1" test design saved as EMB.
+  - file: random2-wilcom.EMB
+    version: ""
+    created_with: Wilcom software
+    author: EmbroidePy
+    license: MIT
+    sha256: 576e390493766626b1fda3c5770b7cd9f7a6a9cccd709feb18d8b12f42937fd7
+    description: >-
+      The EmbroidePy "random2" test design saved as EMB.
+  - file: random3-wilcom-e1.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e1)
+    author: EmbroidePy
+    license: MIT
+    sha256: 387c33991ae3e5213e6192926ac58bb7ea9aa2a3d847608a402759cdae57ffe0
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB; the file name suffix e1 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random3-wilcom-e15.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e15)
+    author: EmbroidePy
+    license: MIT
+    sha256: c68a4658e46528d53ab8434c41833d050e4baccba2683193cbc05ecfe38ab5a6
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB; the file name suffix e15 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random3-wilcom-e18.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e18)
+    author: EmbroidePy
+    license: MIT
+    sha256: 5ac366851a051b8f8a1af3775efed4d41f5247f8050b4cae01248b608a62cd07
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB; the file name suffix e18 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random3-wilcom-e2.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e2)
+    author: EmbroidePy
+    license: MIT
+    sha256: 78afad408a633f2167953c6a1ba4c9afbf2eb355f01d83ad046b94289dd176a8
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB; the file name suffix e2 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random3-wilcom-e2006.EMB
+    version: ""
+    created_with: Wilcom software (file name suffix e2006)
+    author: EmbroidePy
+    license: MIT
+    sha256: bcdac11a4f117fc1107184cfa30a40d44f3141b88433c1ab60dfdb9661cbb908
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB; the file name suffix e2006 is the uploader's, its meaning (probably an EMB version setting) is Unverified.
+  - file: random3-wilcom.EMB
+    version: ""
+    created_with: Wilcom software
+    author: EmbroidePy
+    license: MIT
+    sha256: 77303c117dace84b0bd52a4cbd4bd9a5188f5e333a82246bcc2e2efc7c6caa30
+    description: >-
+      The EmbroidePy "random3" test design saved as EMB.
+  - file: scene-wilcom.EMB
+    version: ""
+    created_with: Wilcom software
+    author: EmbroidePy
+    license: MIT
+    sha256: 253cad3911885565ab768f05f1cb5c6a1710f8b2bbfea5bb3da834ebfdcd7c87
+    description: >-
+      The EmbroidePy "scene" test design saved as EMB.
+  - file: spiralbox-wilcom.EMB
+    version: ""
+    created_with: Wilcom software
+    author: EmbroidePy
+    license: MIT
+    sha256: 918b3e920b42dcf8fd31f5f5374f5f989dd6f94b6c4404eb5404ff6c5bd51287
+    description: >-
+      The EmbroidePy "spiralbox" test design saved as EMB.

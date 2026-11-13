@@ -238,11 +238,11 @@ types:
         doc: Text in the property set's code page (1252 in the samples).
   blob:
     seq:
-      - id: len
+      - id: len_data
         type: u4
         doc: Length of the data in bytes.
       - id: data
-        size: len
+        size: len_data
         doc: Raw data.
   dictionary:
     seq:

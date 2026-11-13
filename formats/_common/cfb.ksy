@@ -32,7 +32,7 @@ instances:
     doc: Sector size in bytes (512 for version 3, 4096 for version 4).
   fat_sector_0:
     pos: (header.difat[0] + 1) * sector_size
-    size: sector_size
+    size: 1 << header.sector_shift
     type: fat_sector
     doc: |
       The first FAT sector, whose index is the first DIFAT entry. Entry
@@ -47,7 +47,7 @@ instances:
       stream is the mini stream, the storage for small streams.
   directory_sector_0:
     pos: (header.first_dir_sector + 1) * sector_size
-    size: sector_size
+    size: 1 << header.sector_shift
     type: dir_sector(sector_size, header.mini_stream_cutoff)
     doc: First directory sector.
   has_directory_sector_1:
@@ -57,7 +57,7 @@ instances:
       when `first_dir_sector` is covered by the first FAT sector.
   directory_sector_1:
     pos: (fat_sector_0.entries[header.first_dir_sector] + 1) * sector_size
-    size: sector_size
+    size: 1 << header.sector_shift
     type: dir_sector(sector_size, header.mini_stream_cutoff)
     if: has_directory_sector_1
     doc: |

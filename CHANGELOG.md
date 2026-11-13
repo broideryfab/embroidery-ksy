@@ -26,6 +26,17 @@ may change without notice.
   `barudan_dat`, `zsk_dsz`, `tajima_tbf`, `pfaff_ksm`, `pfaff_pcs`,
   `happy_tap`, `sunstar_dat`. `barudan_dat` and `sunstar_dat` have no
   samples or tests yet (no redistributable files).
+- Tier 3, proprietary and colour-companion specs, 🟡 Partial: `toyota_10o`,
+  `toyota_100`, `pfaff_pcm`, `pfaff_pcq`, `pfaff_pcd`, `pfaff_max`,
+  `pfaff_spx`, `pfaff_t01`, `pfaff_t09`, `bits_volts_bro`, `inbro_inb`,
+  `data_stitch_stx`, `singer_csd`, `sunstar_sst`, `elna_emd`, `embird_edr`,
+  `color_inf`, `color_rgb`, `brother_pel`, `brother_pem`, `brother_phb`,
+  `brother_phc`, `janome_jpx`, `melco_cnd`, `melco_dem`, `eltac_exy`,
+  `fortron_fxy`, `gold_thread_gt`, `mitsubishi_mit`, `ameco_new`,
+  `gunold_stc`, `zeng_hsing_zhs`, `zsk_zxy`, `zsk_zsk`, `thredworks_thr`,
+  `wilcom_emb`, `bernina_art` and `melco_ofm` (the last two container-only).
+  Formats without samples have no tests. `sierra_eys` and `pulse_pxf` stay
+  stubs.
 - Test runner: list elements can be checked by index
   (`"records": {"0": …, "-1": …}`); `samples/NOTICE` is allowed.
 - CI runs on every branch push and on demand, with kaitai-struct-compiler

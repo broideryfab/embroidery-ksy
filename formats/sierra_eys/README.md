@@ -36,4 +36,4 @@ right to redistribute.
 _Format facts only — no code copied or translated. List every reference
 used (documentation, observed files, other projects read for understanding)._
 
-- _none yet_
+- libembroidery `sierra.c` (Zlib): the .eys reader and writer are empty stubs ("not been finished"), so no structure can be taken from it. pyembroidery has no EYS reader. No files observed. The spec stays a stub until a sample or documentation is available.

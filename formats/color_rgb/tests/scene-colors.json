@@ -1,0 +1,24 @@
+{
+  "num_colors": 3,
+  "colors": [
+    {
+      "red": 9,
+      "green": 91,
+      "blue": 166,
+      "padding": 0
+    },
+    {
+      "red": 78,
+      "green": 41,
+      "blue": 144,
+      "padding": 0
+    },
+    {
+      "red": 246,
+      "green": 74,
+      "blue": 138,
+      "padding": 0
+    }
+  ],
+  "trailer": ""
+}

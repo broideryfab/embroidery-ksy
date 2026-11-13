@@ -1,0 +1,28 @@
+{
+  "data_size": 198,
+  "num_colors": 10,
+  "colors": {
+    "0": {
+      "body": {
+        "index": 1,
+        "red": 166,
+        "green": 166,
+        "blue": 149,
+        "unknown_0x06": 0,
+        "first_string": "Default",
+        "second_string": " "
+      }
+    },
+    "-1": {
+      "body": {
+        "index": 10,
+        "red": 254,
+        "green": 213,
+        "blue": 16,
+        "unknown_0x06": 0,
+        "first_string": "Default",
+        "second_string": " "
+      }
+    }
+  }
+}

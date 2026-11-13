@@ -1,11 +1,12 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# No redistributable real-world .rgb sample exists in the references; see README.
+samples:
+  - file: scene-colors.rgb
+    version: ""
+    created_with: hand-made (byte copy of the colors in embird_edr scene-ew.DST.edr)
+    author: embroidery-ksy
+    license: MIT
+    sha256: b2d0dd61d7d77daef51ec773379a690788b99630fbaa2bd9273fb680444a5701
+    description: >-
+      Synthetic 12-byte file with 3 colors. Not produced by any embroidery software: no real-world .rgb sample was found, so this only exercises the assumed layout (shared with EDR).

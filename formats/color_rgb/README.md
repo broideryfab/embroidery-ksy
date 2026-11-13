@@ -6,34 +6,50 @@
 | Extensions | `.rgb` |
 | Vendor | Various |
 | Priority | Thread color companion |
-| Status | 🔲 Stub |
+| Status | 🟡 Partial |
 
-Thread color companion file.
+Thread color companion file. Not related to Silicon Graphics `.rgb` images.
 
 ## Structure
 
-_TODO: file layout, header fields, record encoding._
+No header, no count: a list of 4-byte entries `red`, `green`, `blue`,
+`padding`. The number of colors is `file size / 4` (`num_colors`).
+Trailing bytes that do not fill an entry go to `trailer`. This is the same
+layout as [`embird_edr`](../embird_edr/README.md).
 
 ## Versions
 
-_TODO: known versions and how to detect them._
+No versions known.
 
 ## Units and coordinates
 
-_TODO: unit size, axis directions, relative vs. absolute positions._
+Not applicable (colors only).
 
 ## Open questions
 
-_TODO: unknown fields and unverified assumptions._
+- **Everything here is Unverified.** No real-world `.rgb` sample was found
+  in the references, so the layout rests on one reader's description.
+- The meaning of the fourth byte (read as a 4-byte color in the reader
+  consulted; value written back is not documented).
+- Which software produces `.rgb` files. Embroidermodder writes one next to
+  other formats as an external color file.
+- Embroidermodder's `.edr` reader delegates to its `.rgb` reader (comment: "appears identical"),
+  and pyembroidery's `EdrReader` agrees with that layout.
+- The `.col` files in EmbroidePy/samples are a different, text-based format
+  (a count, then `catalog,r,g,b` lines) and are **not** covered here.
 
 ## Samples
 
-See [`samples/MANIFEST.yaml`](samples/MANIFEST.yaml). Only files we have the
-right to redistribute.
+No redistributable real-world sample exists. [`samples/scene-colors.rgb`](samples/scene-colors.rgb)
+is a hand-made 12-byte file (a byte copy of the colors of
+`embird_edr`'s `scene-ew.DST.edr`, MIT, ours) that only exercises the
+assumed layout; it proves nothing about real files. See
+[`samples/MANIFEST.yaml`](samples/MANIFEST.yaml).
 
 ## Sources consulted
 
-_Format facts only — no code copied or translated. List every reference
-used (documentation, observed files, other projects read for understanding)._
+_Format facts only — no code copied or translated._
 
-- _none yet_
+- Embroidermodder/libembroidery (Zlib) `readRgb`/`writeRgb`: read for
+  understanding; describes RGB as a color-only file with 4 bytes per color.
+- EmbroidePy/pyembroidery `EdrReader.py` (MIT): same layout for `.edr`.

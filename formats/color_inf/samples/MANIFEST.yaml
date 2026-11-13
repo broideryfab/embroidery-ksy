@@ -1,11 +1,84 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-ew-+.inf
+    version: ""
+    created_with: Embroidery Wizard+
+    author: EmbroidePy
+    license: MIT
+    sha256: 5964f3d16676f543d4a21a583f3faa55585d198c982fffa0defcf431e19f13ec
+    description: >-
+      10 records with brand BERNINA and color names; record length varies with the name.
+  - file: random2-ew-+.inf
+    version: ""
+    created_with: Embroidery Wizard+
+    author: EmbroidePy
+    license: MIT
+    sha256: 905f42e47830c1bf782c7c52a73fac1a4c2376a2e799ff498a0c209ffe9f56ee
+    description: >-
+      10 records, design random2.
+  - file: random3-ew-+.inf
+    version: ""
+    created_with: Embroidery Wizard+
+    author: EmbroidePy
+    license: MIT
+    sha256: 250fa9863d1f6638c15efb82d978f754298b91bafc72b34325b9092ffe6c8ecf
+    description: >-
+      10 records, design random3.
+  - file: scene-ew-+.inf
+    version: ""
+    created_with: Embroidery Wizard+
+    author: EmbroidePy
+    license: MIT
+    sha256: 26a9599a1ac6cea6a97085f2cc63a61bb87a52e2e25bf92f30da8a6ce6246fd0
+    description: >-
+      3 records; smallest of the named-color files.
+  - file: spiralbox-ew-+.inf
+    version: ""
+    created_with: Embroidery Wizard+
+    author: EmbroidePy
+    license: MIT
+    sha256: 0b4d513afd424f4b1c184e3fb7c218ec853ef888c52fa36cc2ebde1a64e79aa5
+    description: >-
+      16 records.
+  - file: random1-me.inf
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 3e5be012869a986bcf37b3f21d8323b42b9cb439550e14b0adbfdbf15cfc6b0f
+    description: >-
+      10 records, all with the name Default and a single-space second string; fixed 19-byte records.
+  - file: random2-me.inf
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: a27dc54a6bb907f46f0b0358dbfc444efa3500c2c1bbf36f4c2c2dd1631569a4
+    description: >-
+      10 records, design random2.
+  - file: random3-me.inf
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 253a0c5ae7c5578d0d898dc403a82854d1c73f1505a4bf2b57e216e2223b1059
+    description: >-
+      10 records, design random3.
+  - file: scene-me.inf
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: e3363d0eb1517b74d67becf5847371121d1e40ca764ea6f18e9dd6fedbfd783b
+    description: >-
+      3 records.
+  - file: spiralbox-me.inf
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 2cb9fa5cbbc435af8c9b792de6f618e89424f57c13c09d687926896bf5828858
+    description: >-
+      16 records.

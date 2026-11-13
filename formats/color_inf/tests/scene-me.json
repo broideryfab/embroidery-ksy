@@ -1,0 +1,42 @@
+{
+  "data_size": 65,
+  "num_colors": 3,
+  "colors": [
+    {
+      "record_length": 19,
+      "body": {
+        "index": 1,
+        "red": 0,
+        "green": 151,
+        "blue": 223,
+        "unknown_0x06": 0,
+        "first_string": "Default",
+        "second_string": " "
+      }
+    },
+    {
+      "record_length": 19,
+      "body": {
+        "index": 2,
+        "red": 182,
+        "green": 18,
+        "blue": 205,
+        "unknown_0x06": 0,
+        "first_string": "Default",
+        "second_string": " "
+      }
+    },
+    {
+      "record_length": 19,
+      "body": {
+        "index": 3,
+        "red": 255,
+        "green": 0,
+        "blue": 96,
+        "unknown_0x06": 0,
+        "first_string": "Default",
+        "second_string": " "
+      }
+    }
+  ]
+}

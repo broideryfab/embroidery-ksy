@@ -1,11 +1,44 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-ew.edr
+    version: ""
+    created_with: Embroidery Wizard
+    author: EmbroidePy
+    license: MIT
+    sha256: ede4ed394a9de0c8c393320f473aec98b7eec80c79e89df2f4f01535dfec96a0
+    description: >-
+      10 colors (40 bytes), design random1.
+  - file: random2-ew.DST.edr
+    version: ""
+    created_with: Embroidery Wizard
+    author: EmbroidePy
+    license: MIT
+    sha256: aab279853b91b3bd9e900b84407db5a8c6a063c51b3f8fa52a49a2cb9651df5d
+    description: >-
+      10 colors, design random2; named after the DST it was saved with.
+  - file: random3-ew.DST.edr
+    version: ""
+    created_with: Embroidery Wizard
+    author: EmbroidePy
+    license: MIT
+    sha256: 159591ec904ab983aca9b06c4f692ec01123416cfddd4f9e727897a62f13a29b
+    description: >-
+      10 colors, design random3.
+  - file: scene-ew.DST.edr
+    version: ""
+    created_with: Embroidery Wizard
+    author: EmbroidePy
+    license: MIT
+    sha256: b2d0dd61d7d77daef51ec773379a690788b99630fbaa2bd9273fb680444a5701
+    description: >-
+      Smallest sample: 3 colors (12 bytes).
+  - file: spiralbox-ew.DST.edr
+    version: ""
+    created_with: Embroidery Wizard
+    author: EmbroidePy
+    license: MIT
+    sha256: b0adb6161f664e9f8121159997bd5cd6d72520e0d7c54afc7c8508938ebb94e1
+    description: >-
+      16 colors (64 bytes), design spiralbox.

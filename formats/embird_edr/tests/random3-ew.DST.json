@@ -1,0 +1,17 @@
+{
+  "num_colors": 10,
+  "colors": {
+    "0": {
+      "red": 181,
+      "green": 75,
+      "blue": 100,
+      "reserved_0x03": 0
+    },
+    "-1": {
+      "red": 186,
+      "green": 152,
+      "blue": 0,
+      "reserved_0x03": 0
+    }
+  }
+}

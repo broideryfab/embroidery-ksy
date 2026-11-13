@@ -1,0 +1,28 @@
+{
+  "num_colors": 10,
+  "colors": {
+    "0": {
+      "body": {
+        "index": 1,
+        "red": 131,
+        "green": 130,
+        "blue": 129,
+        "unknown_0x06": 1,
+        "first_string": "BERNINA",
+        "second_string": "Grey"
+      }
+    },
+    "-1": {
+      "record_length": 24,
+      "body": {
+        "index": 10,
+        "red": 255,
+        "green": 245,
+        "blue": 0,
+        "unknown_0x06": 10,
+        "first_string": "BERNINA",
+        "second_string": "Yellow"
+      }
+    }
+  }
+}

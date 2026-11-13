@@ -6,34 +6,40 @@
 | Extensions | `.pem` |
 | Vendor | Brother |
 | Priority | Tier 3 — long tail |
-| Status | 🔲 Stub |
+| Status | 🟡 Partial |
 
-
+**No redistributable sample exists and no open-source reader decodes this format**, so the spec only exposes the raw file.
 
 ## Structure
 
-_TODO: file layout, header fields, record encoding._
+Unverified and undecoded: the spec exposes the whole file as the raw bytes `body`. Nothing about the header or the stitch encoding is known from permissively licensed sources.
 
 ## Versions
 
-_TODO: known versions and how to detect them._
+None known.
 
 ## Units and coordinates
 
-_TODO: unit size, axis directions, relative vs. absolute positions._
+Unknown.
 
 ## Open questions
 
-_TODO: unknown fields and unverified assumptions._
+- Everything: header, stitch encoding, units, color information.
+- Whether the file is related to the Brother PEC/PES family or to Melco EXP is not known.
 
 ## Samples
 
-See [`samples/MANIFEST.yaml`](samples/MANIFEST.yaml). Only files we have the
-right to redistribute.
+None. See [`samples/MANIFEST.yaml`](samples/MANIFEST.yaml) (empty). No `.pem`
+file was found in EmbroidePy/samples or elsewhere with a license that allows
+redistribution, so the spec is unverified against real files and has no
+tests. Needs: a real `.pem` produced by the vendor's software or a machine,
+with the right to redistribute.
 
 ## Sources consulted
 
 _Format facts only — no code copied or translated. List every reference
 used (documentation, observed files, other projects read for understanding)._
 
-- _none yet_
+- libembroidery `brother.c`, `data.c` (Zlib): lists `.pem` as a stitch-only Brother format; reader and writer are stubs that print "not implemented". Nothing else learned.
+- pyembroidery (MIT): no `.pem` reader.
+- No files observed.

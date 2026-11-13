@@ -1,11 +1,45 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.EMD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7d9fd029e7d2c138d040c94682ec68fcab1776d501fe119e1462e890868b1a70
+    description: >-
+      Random design, 10 colors, written by Wilcom. Ends with a `80 fd` end record.
+  - file: random2-wilcom.EMD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 94ccea4cc86de9b9a1d557aa16a05aa83ed21aafa37815a98c475b265f2c8925
+    description: >-
+      Random design, 10 colors, written by Wilcom. Ends with a `80 fd` end record.
+  - file: random3-wilcom.EMD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: dbeb04abf80be14339512c038714c1ea04cc26bdc2c1313d998e3c00c7d5524b
+    description: >-
+      Random design, 10 colors, written by Wilcom. Ends with a `80 fd` end record.
+  - file: scene-wilcom.EMD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 1b72df7c3524cb0a6f780f8c142614df67ad2e43be7277c47d1787dd6b9dfd16
+    description: >-
+      Scene design, 3 colors, written by Wilcom. Ends with a `80 fd` end record.
+  - file: spiralbox-wilcom.EMD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 10d46f24046caf19d092f84965fca129d87047a89e0b38b4e379f46434eb2b40
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wilcom. Ends with a `80 fd` end record.

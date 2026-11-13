@@ -1,11 +1,53 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: ba3466980040aaa1f3068de8eb07917188d903f4c1d1b14aab43c2a928ab7a1a
+    description: >-
+      Random design, 10 colors, written by Wilcom. Obfuscated body; identifier byte 4 is 0x3d.
+  - file: random2-wilcom.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e04ca8f1dd6d44b89b960926eb537e11bde0dc7f5c8ae43b145d13fe696016e6
+    description: >-
+      Random design, 10 colors, written by Wilcom. Obfuscated body; identifier byte 4 is 0x39.
+  - file: random3-wilcom.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 04999c3e33f02c69efdaaf751a31d6d66611556a28cce34223f60a80ff1a95b2
+    description: >-
+      Random design, 10 colors, written by Wilcom. Obfuscated body; identifier byte 4 is 0x35.
+  - file: scene-wilcom.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e9cff43f08ea085ca28d6687087986a71566285b20a4507e11d2db6dd6495fb1
+    description: >-
+      Scene design, 3 colors, written by Wilcom. Obfuscated body; identifier byte 4 is 0xd.
+  - file: spiralbox-wilcom-a.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 8e72372693f4b3fdb6d8d324e31c61a85d620deebb1a50a2150329c123a613ba
+    description: >-
+      A 10 mm square followed by rotated copies, written by Wilcom. Obfuscated body; identifier byte 4 is 0x7e. Holds 12 colors only; with `-b` it adds up to the 16 colors of the design (see README).
+  - file: spiralbox-wilcom-b.CSD
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: d008211b696ae9d37e84ad8e45b8d3e420b92a216beef4030d0bf169bc018503
+    description: >-
+      A 10 mm square followed by rotated copies, written by Wilcom. Obfuscated body; identifier byte 4 is 0x80. Holds 4 colors only; see `-a` and README.

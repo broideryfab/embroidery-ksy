@@ -1,11 +1,45 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
 #
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.sst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 4d49edd7ed4c33e3defd9e8f5ec471a85371f8bd383c681bb10dfc4a72946a5b
+    description: >-
+      Random design, 10 colors, written by Wings My Editor. Zero header, jump records at the start, ends with an end record.
+  - file: random2-me.sst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 9af5aef45689943379918d2a6c3445ed6addb49b38c55e58e294d845e8f41bb5
+    description: >-
+      Random design, 10 colors, written by Wings My Editor. Zero header, jump records at the start, ends with an end record.
+  - file: random3-me.sst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 11673fa321c9e456605a06e30b75ef305446b65465216ba61097fdfa17e7d011
+    description: >-
+      Random design, 10 colors, written by Wings My Editor. Zero header, jump records at the start, ends with an end record.
+  - file: scene-me.sst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: fa14f058853b3df07e6255d1948eb19d4bf3647f98bea6584b0332be09133209
+    description: >-
+      Scene design, 3 colors, written by Wings My Editor. Zero header, jump records at the start, ends with an end record.
+  - file: spiralbox-me.sst
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: dfe15ba4533382a22c9405dc1aeab4673bcd590d46dcc8e3dd525df2989bc747
+    description: >-
+      A 10 mm square followed by rotated copies, 16 colors, written by Wings My Editor. Zero header, jump records at the start, ends with an end record.

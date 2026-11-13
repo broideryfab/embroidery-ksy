@@ -1,0 +1,26 @@
+{
+  "unknown_0x06": 101,
+  "unknown_0x08": 10,
+  "width": 943,
+  "height": 830,
+  "num_colors": 10,
+  "unknown_0x10": 160,
+  "unknown_0x1c": -24,
+  "records": {
+    "0": {
+      "is_control": true,
+      "control": 125,
+      "is_move": false
+    },
+    "1": {
+      "is_move": true,
+      "move_dx": 17,
+      "move_dy": 108
+    },
+    "-1": {
+      "is_control": true,
+      "control": 253,
+      "is_end": true
+    }
+  }
+}

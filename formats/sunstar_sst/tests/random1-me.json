@@ -1,0 +1,21 @@
+{
+  "records": {
+    "0": {
+      "dx": 0,
+      "dy": 0,
+      "flags": 2,
+      "is_jump": true,
+      "is_end": false
+    },
+    "2": {
+      "dx": -77,
+      "dy": -36
+    },
+    "-1": {
+      "dx": 0,
+      "dy": 0,
+      "flags": 4,
+      "is_end": true
+    }
+  }
+}

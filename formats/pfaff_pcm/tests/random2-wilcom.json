@@ -1,0 +1,45 @@
+{
+  "version": 50,
+  "hoop_code": 3,
+  "num_colors": 16,
+  "stitch_count": 156,
+  "num_records": 79,
+  "colors": {
+    "0": {
+      "palette_index": 12
+    },
+    "15": {
+      "palette_index": 15
+    }
+  },
+  "records": {
+    "0": {
+      "x_raw": 12,
+      "y_raw": 0,
+      "control": 3,
+      "x": 0,
+      "y": 0
+    },
+    "1": {
+      "x_raw": 31350,
+      "y_raw": 104400,
+      "control": 4,
+      "x": 122,
+      "y": 407
+    },
+    "8": {
+      "x_raw": 13,
+      "y_raw": 0,
+      "control": 3,
+      "x": 0,
+      "y": 0
+    },
+    "78": {
+      "x_raw": 157800,
+      "y_raw": 51450,
+      "control": 0,
+      "x": 616,
+      "y": 200
+    }
+  }
+}

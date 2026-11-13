@@ -1,11 +1,76 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-me.pcm
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 025ed71a6a1a806264554d5c8c28216393d91952304d756eda9d9f7c725449c2
+    description: >-
+      Random design, 10 colors. 1356 bytes.
+  - file: random2-me.pcm
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 9973d208312eb801924872b7e64c6057236ff5901ec14337c55fd3281b595a2f
+    description: >-
+      Random design, 10 colors. 1401 bytes.
+  - file: random2-wilcom.PCM
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 0f8d592e240ca7410dc8113fc327f6657da04b659ae0e2368405afdaa01e224b
+    description: >-
+      Random design, 10 colors. 749 bytes.
+  - file: random3-me.pcm
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 2158d382a6939d130fed355fa7f28b363039eefa6defc235bb8f8efc42a21f7f
+    description: >-
+      Random design, 10 colors. 1437 bytes.
+  - file: random3-wilcom.PCM
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: f301a2922bd14d0d07da2105d24132faa71c39f78423fc184bd2244477378bad
+    description: >-
+      Random design, 10 colors. 749 bytes.
+  - file: scene-me.pcm
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 6a92de6be26dd43ad0f1d0c5338474236b27d0211b1784b43255aae3559d35fe
+    description: >-
+      Scene design, 3 colors. 1383 bytes.
+  - file: scene-wilcom.PCM
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 4a5e3e25bec46f09827d663ec9cf70806bdf8020a084bc992e5aea74d1619383
+    description: >-
+      Scene design, 3 colors. 1280 bytes.
+  - file: spiralbox-me.pcm
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 40f5b238389f2571f1d974c74c1251bd9450104b81f712ba546d415abd8567c6
+    description: >-
+      Spiral box design, 16 colors. 1077 bytes.
+  - file: spiralbox-wilcom.PCM
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: eb156c32601cb6f97fc84b01898c2273318cf0401aef515d7cb8436e8433b1d5
+    description: >-
+      Spiral box design, 16 colors. 1181 bytes.

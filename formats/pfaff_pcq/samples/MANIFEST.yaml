@@ -1,11 +1,52 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 9fc449b825320b9db0e3afdab09cd679a53ebd453c963d18cee4fc316a963f70
+    description: >-
+      Random design, 10 colors. 543 bytes.
+  - file: random2-wilcom.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 8d2ca59b5b02a409767bfe31ccff1ca751fb0cc9a28b585d94927c5335342a68
+    description: >-
+      Random design, 10 colors. 543 bytes.
+  - file: random3-wilcom.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: dfdd5cf028224c3323bdeaf77d4e95b0e0ecdd79f659f5ab8ebf92241862d5f7
+    description: >-
+      Random design, 10 colors. 543 bytes.
+  - file: scene-wilcom.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 78f4a08f7673671de68e65066adfe9bd3a8e8d6130523488985ab7b004089d3f
+    description: >-
+      Scene design, 3 colors. 1290 bytes.
+  - file: spiralbox-wilcom-a.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 495486bfbb72ada377ccb061db12db583aaa6505ded3890aa14c65efb4db7f34
+    description: >-
+      Spiral box design, 15 color changes, small hoop. 1029 bytes.
+  - file: spiralbox-wilcom-b.PCQ
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7791b66721fe2e0037c10ad77a63f09a113fa1648739fb0207febffd1defb684
+    description: >-
+      Small design, 1 color, small hoop (move records). 156 bytes.

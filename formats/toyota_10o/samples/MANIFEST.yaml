@@ -1,11 +1,31 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: spiralbox-wilcom.10O
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 77b0f163128ca5ad55269da4d7966f165711ec572fdabab7fb28c62bc25e79c2
+    description: >-
+      Spiral box, 15 colors. 111 records: start record, stitches, moves,
+      15 color changes, end record.
+  - file: spiralbox-premier.10o
+    version: ""
+    created_with: Premier+ (VSM)
+    author: EmbroidePy
+    license: MIT
+    sha256: c970610b744d6465bcf6da9ca47017a4db8d5dc9e64662d472d440c3f597266e
+    description: >-
+      Same design as spiralbox-wilcom. 180 records, no start record, one
+      trim record (0x81).
+  - file: random1-wilcom.10O
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e514a88f78a817b464169ea4abd96959fe68cd40bc7ac4e491ff964b4d0aa0c1
+    description: >-
+      Random design, 9 color changes. 148 records, many moves, negative
+      offsets in both axes.

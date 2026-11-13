@@ -1,0 +1,7 @@
+{
+  "num_records": 180,
+  "records": {
+    "0": { "control": 240, "dx": -66, "dy": -45, "is_move": true },
+    "-1": { "control": 135, "is_end": true }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "num_records": 130,
+  "records": {
+    "0": { "control": 131, "dx": 0, "dy": 0 },
+    "1": { "control": 193, "dx": 76, "dy": 50 },
+    "2": { "control": 161, "dx": 0, "dy": -100 },
+    "3": { "control": 161, "dx": 100, "dy": 0 },
+    "4": { "control": 161, "dx": 0, "dy": 100 },
+    "5": { "control": 161, "dx": -100, "dy": 0 },
+    "6": { "control": 130 },
+    "7": { "control": 132 },
+    "-1": { "control": 31, "is_end": true }
+  }
+}

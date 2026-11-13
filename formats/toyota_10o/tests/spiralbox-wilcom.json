@@ -1,0 +1,13 @@
+{
+  "num_records": 111,
+  "records": {
+    "0": { "control": 138, "is_start": true },
+    "1": { "control": 192, "y_raw": 100, "x_raw": 0, "dx": 0, "dy": -100, "is_stitch": true },
+    "2": { "control": 128, "y_raw": 0, "x_raw": 100, "dx": 100, "dy": 0, "is_stitch": true },
+    "3": { "control": 128, "dx": 0, "dy": 100, "is_stitch": true },
+    "4": { "control": 160, "dx": -100, "dy": 0, "is_stitch": true },
+    "5": { "control": 133, "is_color_change": true },
+    "6": { "control": 208, "dx": 14, "dy": -33, "is_move": true },
+    "-1": { "control": 135, "is_end": true }
+  }
+}

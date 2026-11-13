@@ -1,11 +1,22 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+# Both files have the extension .101, not .100 (no .100 sample is known).
+samples:
+  - file: spiralbox-me.101
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: f947074552c78f711b6aa0b72c47265aed2281a78b0b484313a225605630f77e
+    description: >-
+      Spiral box, 130 records of 4 bytes, end record (0x1F), 2 trailing
+      zero bytes. Shows stitch, move and the 0x82 / 0x84 pairs.
+  - file: random1-me.101
+    version: ""
+    created_with: Wings My Editor
+    author: EmbroidePy
+    license: MIT
+    sha256: 9e46a64558b7905b8190ba7c9b5f312f95c544a36342bdc88a8314543d319e6a
+    description: >-
+      Random design, 240 records, mostly moves; includes 0x81 records.

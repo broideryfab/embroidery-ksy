@@ -1,11 +1,44 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.STX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: ef6b749a567fba47cd0e3e4481923e5297a0eab8fb6aa65c0640be8fab92af32
+    description: >-
+      Random design (random1), Wilcom export. Header offsets, 16-entry color table and EXP-style stitch records.
+  - file: random2-wilcom.STX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 91f1d1158772fc37cfee4edd2ad6aec1f4ea6d6637a851e82d8d200353fb12a5
+    description: >-
+      Random design (random2), Wilcom export. Header offsets, 16-entry color table and EXP-style stitch records.
+  - file: random3-wilcom.STX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 4b75377af68d36aa32ccfb1234dbdc4e37de8b1e394c4d4e0125cf1244ca2fee
+    description: >-
+      Random design (random3), Wilcom export. Header offsets, 16-entry color table and EXP-style stitch records.
+  - file: scene-wilcom.STX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: efb4131c29f92235128d19cfca72e67fc1d3568a1bf94e4784c84a1d86733711
+    description: >-
+      Scene design (scene), Wilcom export. Header offsets, 16-entry color table and EXP-style stitch records.
+  - file: spiralbox-wilcom.STX
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: c2fe35d5b4ffaa35541950fa31fb6cc02588acd1fa942cd0dfdab98c09a10a71
+    description: >-
+      Spiral box design (spiralbox), Wilcom export. Header offsets, 16-entry color table and EXP-style stitch records.

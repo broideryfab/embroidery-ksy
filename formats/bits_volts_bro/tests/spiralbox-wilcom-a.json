@@ -1,0 +1,54 @@
+{
+  "header": {
+    "design_name": "spiralbo",
+    "record_count": 53,
+    "height": 362,
+    "width": 363,
+    "color_count": 9,
+    "unknown_0x24": 32,
+    "unknown_0x26": 0,
+    "unknown_0x28": 0
+  },
+  "records": {
+    "0": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 0,
+      "is_escape": true,
+      "wide_x": 0,
+      "wide_y": 0,
+      "is_start_position": true
+    },
+    "1": {
+      "first_byte": 0,
+      "second_byte": 156,
+      "dx": 0,
+      "dy": -100,
+      "is_stitch": true
+    },
+    "2": {
+      "first_byte": 100,
+      "second_byte": 0,
+      "dx": 100,
+      "dy": 0,
+      "is_stitch": true
+    },
+    "5": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 225,
+      "is_escape": true,
+      "wide_x": 14,
+      "wide_y": -33,
+      "needle": 1
+    },
+    "-1": {
+      "first_byte": 128,
+      "second_byte": 2,
+      "control": 224,
+      "is_escape": true,
+      "is_end": true
+    }
+  },
+  "trailer": "7e00000000"
+}

@@ -1,0 +1,62 @@
+{
+  "header": {
+    "design_name": "random3-",
+    "unknown_0x09": 1,
+    "record_count": 154,
+    "width": 970,
+    "height": 903,
+    "color_count": 10,
+    "extent_left": 491,
+    "extent_right": 479,
+    "extent_up": 408,
+    "extent_down": 495
+  },
+  "records": {
+    "0": {
+      "x_magnitude": 92,
+      "y_magnitude": 52,
+      "control": 98,
+      "command": 2,
+      "dx": -92,
+      "dy": -52,
+      "is_end": false
+    },
+    "1": {
+      "x_magnitude": 92,
+      "y_magnitude": 52,
+      "control": 98,
+      "command": 2,
+      "dx": -92,
+      "dy": -52,
+      "is_end": false
+    },
+    "2": {
+      "x_magnitude": 92,
+      "y_magnitude": 52,
+      "control": 98,
+      "command": 2,
+      "dx": -92,
+      "dy": -52,
+      "is_end": false
+    },
+    "7": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 145,
+      "command": 1,
+      "dx": 0,
+      "dy": 0,
+      "is_end": false
+    },
+    "-1": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 4,
+      "command": 4,
+      "dx": 0,
+      "dy": 0,
+      "is_end": true
+    }
+  },
+  "trailer": ""
+}

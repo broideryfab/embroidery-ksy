@@ -1,11 +1,76 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom-a.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 481f16e5bea007a8b509b85e50dc15a2ef07bb4cfc4e5da56f2be18aedb50554
+    description: >-
+      Random design, 9 colors, 36 records. Start position record, 16-bit moves, needle changes 1 to 8.
+  - file: random1-wilcom-b.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 97a856d4c9fc942c2fda281f3d256df2537439fcd901eea7939877d2ce44e5f8
+    description: >-
+      Same design header as random1-wilcom-a but only 4 records: start position, one stitch, two 16-bit moves.
+  - file: random2-wilcom-a.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: b7cb411e8521066b90e93269e984e56a7ed7d1c724bcb343b77bc5a5a735d711
+    description: >-
+      Random design, 9 colors, 36 records..
+  - file: random2-wilcom-b.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: f0954a0ba3bafbf6e3945c62095fc47e55d3c281fd9bdad683679dc9e265d364
+    description: >-
+      Short variant of random2: 4 records.
+  - file: random3-wilcom-a.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: ae338a30111401208e1183376622b37e706dd0250d31261e99149848a290ae02
+    description: >-
+      Random design, 9 colors, 36 records.
+  - file: random3-wilcom-b.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 91a7c80ffdb9719d00e7091c43d97c7a3d156c56e6ead15b4353664bff6611ef
+    description: >-
+      Short variant of random3: 4 records.
+  - file: scene-wilcom.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: ae956f2018289d3e6bae49925c5bb7a691a7622d0fe5ab4f91d812567635ad40
+    description: >-
+      Scene design: 130 records, 3 colors, almost all plain 2-byte stitches.
+  - file: spiralbox-wilcom-a.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 6a573739bbcaf7ce098766dea799a79c9fc9fca9a0d19a25824cd7fd8f4bf963
+    description: >-
+      Spiral box, 9 colors, only plain stitches and needle changes (no 16-bit stitch moves), start position (0, 0).
+  - file: spiralbox-wilcom-b.BRO
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 7e15e1f21ecb2daf968948a4bea01e850ec6f8e132f08de24049c9a0b64b7ceb
+    description: >-
+      Spiral box variant with 7 colors and a non-zero start position (-13, 33).

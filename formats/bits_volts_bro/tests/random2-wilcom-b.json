@@ -1,0 +1,47 @@
+{
+  "header": {
+    "design_name": "random2-",
+    "record_count": 4,
+    "height": 830,
+    "width": 943,
+    "color_count": 1,
+    "unknown_0x24": 32,
+    "unknown_0x26": -124,
+    "unknown_0x28": 70
+  },
+  "records": {
+    "0": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 0,
+      "is_escape": true,
+      "wide_x": -870,
+      "wide_y": 492,
+      "is_start_position": true
+    },
+    "1": {
+      "first_byte": 0,
+      "second_byte": 0,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": true
+    },
+    "2": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 3,
+      "is_escape": true,
+      "wide_x": 914,
+      "wide_y": -318,
+      "is_wide_move": true
+    },
+    "-1": {
+      "first_byte": 128,
+      "second_byte": 2,
+      "control": 224,
+      "is_escape": true,
+      "is_end": true
+    }
+  },
+  "trailer": "7e00000000"
+}

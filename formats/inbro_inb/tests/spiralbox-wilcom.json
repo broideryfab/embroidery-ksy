@@ -1,0 +1,62 @@
+{
+  "header": {
+    "design_name": "spiralbo",
+    "unknown_0x09": 1,
+    "record_count": 109,
+    "width": 363,
+    "height": 362,
+    "color_count": 16,
+    "extent_left": 257,
+    "extent_right": 106,
+    "extent_up": 131,
+    "extent_down": 231
+  },
+  "records": {
+    "0": {
+      "x_magnitude": 0,
+      "y_magnitude": 100,
+      "control": 160,
+      "command": 0,
+      "dx": 0,
+      "dy": -100,
+      "is_end": false
+    },
+    "1": {
+      "x_magnitude": 100,
+      "y_magnitude": 0,
+      "control": 144,
+      "command": 0,
+      "dx": 100,
+      "dy": 0,
+      "is_end": false
+    },
+    "2": {
+      "x_magnitude": 0,
+      "y_magnitude": 100,
+      "control": 144,
+      "command": 0,
+      "dx": 0,
+      "dy": 100,
+      "is_end": false
+    },
+    "4": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 145,
+      "command": 1,
+      "dx": 0,
+      "dy": 0,
+      "is_end": false
+    },
+    "-1": {
+      "x_magnitude": 0,
+      "y_magnitude": 0,
+      "control": 4,
+      "command": 4,
+      "dx": 0,
+      "dy": 0,
+      "is_end": true
+    }
+  },
+  "trailer": ""
+}

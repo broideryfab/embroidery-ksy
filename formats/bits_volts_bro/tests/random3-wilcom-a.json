@@ -1,0 +1,56 @@
+{
+  "header": {
+    "design_name": "random3-",
+    "record_count": 36,
+    "height": 903,
+    "width": 970,
+    "color_count": 9,
+    "unknown_0x24": 32,
+    "unknown_0x26": -92,
+    "unknown_0x28": -52
+  },
+  "records": {
+    "0": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 0,
+      "is_escape": true,
+      "wide_x": -276,
+      "wide_y": -156,
+      "is_start_position": true
+    },
+    "1": {
+      "first_byte": 0,
+      "second_byte": 0,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": true
+    },
+    "2": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 3,
+      "is_escape": true,
+      "wide_x": -168,
+      "wide_y": -207,
+      "is_wide_move": true
+    },
+    "4": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 225,
+      "is_escape": true,
+      "wide_x": 561,
+      "wide_y": 207,
+      "needle": 1
+    },
+    "-1": {
+      "first_byte": 128,
+      "second_byte": 2,
+      "control": 224,
+      "is_escape": true,
+      "is_end": true
+    }
+  },
+  "trailer": "7e00000000"
+}

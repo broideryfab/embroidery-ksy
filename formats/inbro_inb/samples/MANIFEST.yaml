@@ -1,11 +1,44 @@
 # Sample files for this format.
 # Only files we have the right to redistribute publicly.
-#
-# - file: square-10mm.ext        # file name in this directory
-#   version: ""                  # format version, if any
-#   created_with: ""             # software or machine that produced it
-#   author: ""                   # who made it
-#   license: MIT                 # MIT, CC0, CC-BY-4.0, ...
-#   sha256: ""                   # sha256 of the file
-#   description: ""              # what it demonstrates
-samples: []
+# Files from EmbroidePy/samples keep their original names; see NOTICE.
+samples:
+  - file: random1-wilcom.INB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 0e4c81d91d8ae048c175aeb7ec3216a0f83d428ddc857fca18e57b2ccd33d1fb
+    description: >-
+      Random design (random1), Wilcom export. 3-byte sign-magnitude records and a bounding box at 0x14b.
+  - file: random2-wilcom.INB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 8e55c55e655e31f332cbe47b0282c49e27e04c9a1eeffccc10970fbe549c5b70
+    description: >-
+      Random design (random2), Wilcom export. 3-byte sign-magnitude records and a bounding box at 0x14b.
+  - file: random3-wilcom.INB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 6b4e93360511815b3f511e19b46988e4beb2aac7e67c1d03ac362d9d7d48f578
+    description: >-
+      Random design (random3), Wilcom export. 3-byte sign-magnitude records and a bounding box at 0x14b.
+  - file: scene-wilcom.INB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: e6df8a45fec1686f921184be7d39fd7195e0a80acb8d35d2c2d8981a93af749c
+    description: >-
+      Scene design (scene), Wilcom export. 3-byte sign-magnitude records and a bounding box at 0x14b.
+  - file: spiralbox-wilcom.INB
+    version: ""
+    created_with: Wilcom
+    author: EmbroidePy
+    license: MIT
+    sha256: 212d0b1fe89e4a37cd8bc974b2534c5515e18c41b8d29b560e608afa57ebf66e
+    description: >-
+      Spiral box design (spiralbox), Wilcom export. 3-byte sign-magnitude records and a bounding box at 0x14b.

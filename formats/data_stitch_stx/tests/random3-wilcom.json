@@ -1,0 +1,79 @@
+{
+  "version": "1.00",
+  "unknown_0x08": 48,
+  "colors_offset": 362,
+  "unknown_block_offset": 410,
+  "stitches_offset": 610,
+  "num_colors": 16,
+  "colors": {
+    "0": {
+      "red": 0,
+      "green": 0,
+      "blue": 0
+    },
+    "1": {
+      "red": 63,
+      "green": 63,
+      "blue": 63
+    },
+    "2": {
+      "red": 63,
+      "green": 0,
+      "blue": 0
+    },
+    "-1": {
+      "red": 40,
+      "green": 40,
+      "blue": 40
+    }
+  },
+  "records": {
+    "0": {
+      "first_byte": 128,
+      "second_byte": 4,
+      "escape_x": -92,
+      "escape_y": -52,
+      "is_escape": true,
+      "is_color_change": false,
+      "is_jump": true,
+      "is_trim": false
+    },
+    "1": {
+      "first_byte": 128,
+      "second_byte": 4,
+      "escape_x": -92,
+      "escape_y": -52,
+      "is_escape": true,
+      "is_color_change": false,
+      "is_jump": true,
+      "is_trim": false
+    },
+    "2": {
+      "first_byte": 128,
+      "second_byte": 4,
+      "escape_x": -92,
+      "escape_y": -52,
+      "is_escape": true,
+      "is_color_change": false,
+      "is_jump": true,
+      "is_trim": false
+    },
+    "8": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "escape_x": 0,
+      "escape_y": 0,
+      "is_escape": true,
+      "is_color_change": true,
+      "is_jump": false,
+      "is_trim": false
+    },
+    "-1": {
+      "first_byte": 108,
+      "second_byte": 152,
+      "dx": 108,
+      "dy": -104,
+      "is_stitch": true
+    }
+  }
+}

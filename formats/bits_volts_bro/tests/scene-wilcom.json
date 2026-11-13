@@ -1,0 +1,54 @@
+{
+  "header": {
+    "design_name": "scene-wi",
+    "record_count": 130,
+    "height": 1126,
+    "width": 1150,
+    "color_count": 3,
+    "unknown_0x24": 32,
+    "unknown_0x26": 20,
+    "unknown_0x28": 0
+  },
+  "records": {
+    "0": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 0,
+      "is_escape": true,
+      "wide_x": 20,
+      "wide_y": 0,
+      "is_start_position": true
+    },
+    "1": {
+      "first_byte": 0,
+      "second_byte": 0,
+      "dx": 0,
+      "dy": 0,
+      "is_stitch": true
+    },
+    "2": {
+      "first_byte": 10,
+      "second_byte": 239,
+      "dx": 10,
+      "dy": -17,
+      "is_stitch": true
+    },
+    "50": {
+      "first_byte": 128,
+      "second_byte": 1,
+      "control": 225,
+      "is_escape": true,
+      "wide_x": 520,
+      "wide_y": 0,
+      "needle": 1
+    },
+    "-1": {
+      "first_byte": 128,
+      "second_byte": 2,
+      "control": 224,
+      "is_escape": true,
+      "is_end": true
+    }
+  },
+  "trailer": "7e00000000"
+}

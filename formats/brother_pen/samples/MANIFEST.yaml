@@ -1,0 +1,13 @@
+samples:
+  - file: two-colors.pen
+    version: ""
+    created_with: Built by hand from the record layout
+    author: embroidery-ksy
+    license: MIT
+    sha256: ed03809639272a7a4f63a866e88d9b17a2af249ecab3979cff01012b7eb51ba2
+    description: >-
+      Synthetic, not produced by a machine or by Brother software. 30
+      records: a start point, tie-in stitches, a 2 mm run to x=20, a color
+      end with cut, a feed to (20, 10), tie-in stitches and the data end.
+      Shows plain, feed, cut, color-end and data-end records, and negative
+      offsets.

@@ -37,6 +37,7 @@ may change without notice.
   `wilcom_emb`, `bernina_art` and `melco_ofm` (the last two container-only).
   Formats without samples have no tests. `sierra_eys` and `pulse_pxf` stay
   stubs.
+- `brother_pen`: spec for the Brother Skitch (PP1) Bluetooth stitch stream (4-byte absolute records with flags), one synthetic sample and a test.
 - Test runner: list elements can be checked by index
   (`"records": {"0": …, "-1": …}`); `samples/NOTICE` is allowed.
 - CI runs on every branch push and on demand, with kaitai-struct-compiler

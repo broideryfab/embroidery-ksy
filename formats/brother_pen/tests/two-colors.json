@@ -1,0 +1,15 @@
+{
+  "num_records": 30,
+  "records": {
+    "0": { "x": 0, "y": 0, "is_feed": false, "is_cut": false, "is_color_end": false, "is_data_end": false },
+    "1": { "x": 2, "y": 0 },
+    "2": { "x": -2, "y": 0 },
+    "9": { "x": 10, "y": 0 },
+    "10": { "x": 20, "y": 0 },
+    "19": { "x": 20, "y": 0, "x_flag": 3, "is_color_end": true, "is_cut": true, "is_feed": false },
+    "20": { "x": 20, "y": 10, "is_feed": true, "is_cut": false, "is_color_end": false },
+    "21": { "x": 21, "y": 11 },
+    "22": { "x": 19, "y": 9 },
+    "-1": { "x": 20, "y": 10, "x_flag": 5, "is_data_end": true, "is_feed": false, "is_cut": false }
+  }
+}

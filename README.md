@@ -133,6 +133,7 @@ color companion files.
 | [brother_pem](formats/brother_pem/) | .pem | Brother | 3 | 🟡 Partial |
 | [brother_phb](formats/brother_phb/) | .phb | Brother | 3 | 🟡 Partial |
 | [brother_phc](formats/brother_phc/) | .phc | Brother | 3 | 🟡 Partial |
+| [brother_pen](formats/brother_pen/) | .pen | Brother | 3 | 🟡 Partial |
 | [pfaff_spx](formats/pfaff_spx/) | .spx | Pfaff | 3 | 🟡 Partial |
 | [sunstar_sst](formats/sunstar_sst/) | .sst | Sunstar | 3 | 🟡 Partial |
 | [gunold_stc](formats/gunold_stc/) | .stc | Gunold | 3 | 🟡 Partial |
